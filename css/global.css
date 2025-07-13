@@ -13,11 +13,11 @@ body {
 }
 @font-face {
   font-family: "Inter";
-  src: url(../../assets/fonts/Inter.ttf) format("truetype");
+  src: url(../fonts/Inter.ttf) format("truetype");
 }
 @font-face {
   font-family: "Golos";
-  src: url(../../assets/fonts/Golos.ttf) format("truetype");
+  src: url(../fonts/Golos.ttf) format("truetype");
 }
 :root {
   --inter: "Inter", sans-serif;
