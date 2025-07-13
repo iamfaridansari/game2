@@ -27,6 +27,7 @@ body {
   --green: #3bff97;
   --grey: #fff3;
   --transition: 0.5s all ease-in-out;
+  --radius: 8px;
 }
 img {
   width: 100%;

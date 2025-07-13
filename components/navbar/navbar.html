@@ -10,7 +10,9 @@
 
     <div class="nav-bar-buttons">
       <button class="button login-button">Login</button>
-      <button class="button register-button">Register</button>
+      <button class="button register-button" id="register-open">
+        Register
+      </button>
       <button class="button message-button">
         <i class="fa-solid fa-message"></i>
       </button>
@@ -36,3 +38,118 @@
     Settings
   </li>
 </ul>
+
+<div class="register-modal-wrapper" id="register-modal-wrapper">
+  <div class="register-modal-background"></div>
+  <div class="register-modal" id="register-modal">
+    <div class="register-left">
+      <img src="../../assets/images/register-modal.jpg" alt="" />
+    </div>
+
+    <div class="register-right">
+      <button class="button register-close" id="register-close">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="register-tab">
+        <button class="button register-tab-button active">Register</button>
+        <button class="button register-tab-button">Login</button>
+      </div>
+
+      <form class="signup d-flex" id="signup">
+        <div>
+          <label>Username</label>
+          <div class="input mt-2">
+            <div>
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <input
+              type="text"
+              placeholder="Enter username (3-26 characters)"
+              autocomplete="off"
+            />
+          </div>
+        </div>
+        <div>
+          <label>Email</label>
+          <div class="input mt-2">
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <input
+              type="email"
+              placeholder="Enter email address"
+              autocomplete="off"
+            />
+          </div>
+        </div>
+        <div>
+          <label>Password</label>
+          <div class="input mt-2">
+            <div>
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <input
+              type="password"
+              placeholder="Enter password (6-26 characters)"
+              autocomplete="off"
+            />
+          </div>
+        </div>
+        <div>
+          <label>Confirm Password</label>
+          <div class="input mt-2">
+            <div>
+              <i class="fa-solid fa-lock"></i>
+            </div>
+            <input
+              type="password"
+              placeholder="Confirm password"
+              autocomplete="off"
+            />
+          </div>
+        </div>
+        <button class="button signup-button">Create account</button>
+      </form>
+
+      <form class="login d-none" id="login">
+        <div>
+          <label>Username</label>
+          <div class="input mt-2">
+            <div>
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <input
+              type="text"
+              placeholder="Enter username (3-26 characters)"
+              autocomplete="off"
+            />
+          </div>
+        </div>
+        <div>
+          <label>Email</label>
+          <div class="input mt-2">
+            <div>
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <input
+              type="email"
+              placeholder="Enter email address"
+              autocomplete="off"
+            />
+          </div>
+        </div>
+        <button class="button signup-button">Create account</button>
+      </form>
+
+      <div class="text-center">
+        <p style="font-size: 12px">
+          By signing in, you are agreeing to our Terms of Service and Privacy
+          Policy. General prohibited users using multiple accounts, completing
+          offers on another user's account, or using any type of VPN, VPS, or
+          Emulator software.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
