@@ -1,0 +1,81 @@
+.nav-bar,
+.nav-bar-inner,
+.nav-bar-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-bar {
+  padding: 8px;
+  gap: 24px;
+}
+.nav-bar-inner {
+  flex: 1;
+}
+.nav-bar-buttons {
+  gap: 8px;
+}
+.menu,
+.message-button {
+  background: var(--grey);
+  width: 50px;
+  height: 40px;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-size: 18px;
+  padding: 0;
+}
+.nav-logo {
+  width: 100px;
+}
+.login-button {
+  color: #fff;
+  transition: var(--transition);
+  font-weight: bold;
+}
+.login-button:hover {
+  background: #fff;
+  color: #000;
+}
+.register-button {
+  background: var(--yellow);
+  transition: var(--transition);
+  font-weight: bold;
+}
+.message-button {
+  background: transparent;
+}
+.message-button:hover {
+  background: var(--grey);
+}
+.nav-bar2 {
+  width: 100%;
+  display: none;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 24px;
+  list-style-type: none;
+  margin-top: 8px;
+}
+.nav-bar2 li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #a2a2a2;
+  cursor: pointer;
+}
+/*  */
+@media screen and (max-width: 768px) {
+  .menu,
+  .login-button,
+  .message-button {
+    display: none;
+  }
+  .nav-bar2 {
+    display: flex;
+  }
+}
+@media screen and (max-width: px) {
+}
