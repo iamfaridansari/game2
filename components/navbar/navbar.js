@@ -5,13 +5,40 @@ document.addEventListener("DOMContentLoaded", () => {
       document.getElementById("navbar").innerHTML = data;
 
       //
-      const registerOpen = document.getElementById("register-open");
+      const registerOpen = document.querySelectorAll(".register-open");
       const registerClose = document.getElementById("register-close");
       if (registerOpen && registerClose) {
-        registerOpen.addEventListener("click", () => {
-          document
-            .getElementById("register-modal-wrapper")
-            .classList.add("active");
+        registerOpen.forEach((item) => {
+          item.addEventListener("click", (e) => {
+            document
+              .getElementById("register-modal-wrapper")
+              .classList.add("active");
+            registerTabButton.forEach((btn) => {
+              btn.classList.remove("active");
+
+              if (
+                btn.textContent.toLowerCase() ===
+                e.currentTarget.getAttribute("data-modal-target").toLowerCase()
+              ) {
+                btn.classList.add("active");
+              }
+            });
+            if (
+              e.currentTarget
+                .getAttribute("data-modal-target")
+                .toLowerCase() === "register"
+            ) {
+              signup.classList.replace("d-none", "d-flex");
+              login.classList.add("d-none");
+              login.classList.remove("d-flex");
+              registerModal.style.height = "600px";
+            } else {
+              login.classList.replace("d-none", "d-flex");
+              signup.classList.add("d-none");
+              signup.classList.remove("d-flex");
+              registerModal.style.height = "450px";
+            }
+          });
         });
 
         registerClose.addEventListener("click", () => {
@@ -45,6 +72,25 @@ document.addEventListener("DOMContentLoaded", () => {
             signup.classList.remove("d-flex");
             registerModal.style.height = "450px";
           }
+        });
+      });
+
+      //
+      const passwordInput = document.querySelectorAll(".password-input");
+      const showPassword = document.querySelectorAll(".show-password");
+      showPassword.forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+          const targetInput = e.currentTarget.getAttribute("data-input-target");
+          passwordInput.forEach((item) => {
+            if (
+              item.getAttribute("data-input").toLowerCase() ===
+              targetInput.toLowerCase()
+            ) {
+              item.toggleAttribute(
+                (item.type = item.type === "password" ? "text" : "password")
+              );
+            }
+          });
         });
       });
     });

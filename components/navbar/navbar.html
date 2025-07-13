@@ -9,8 +9,16 @@
     </div>
 
     <div class="nav-bar-buttons">
-      <button class="button login-button">Login</button>
-      <button class="button register-button" id="register-open">
+      <button
+        class="button login-button register-open"
+        data-modal-target="login"
+      >
+        Login
+      </button>
+      <button
+        class="button register-button register-open"
+        data-modal-target="register"
+      >
         Register
       </button>
       <button class="button message-button">
@@ -93,7 +101,12 @@
               type="password"
               placeholder="Enter password (6-26 characters)"
               autocomplete="off"
+              class="password-input"
+              data-input="create-password"
             />
+            <div class="show-password" data-input-target="create-password">
+              <i class="fa-solid fa-eye"></i>
+            </div>
           </div>
         </div>
         <div>
@@ -106,7 +119,12 @@
               type="password"
               placeholder="Confirm password"
               autocomplete="off"
+              class="password-input"
+              data-input="confirm-password"
             />
+            <div class="show-password" data-input-target="confirm-password">
+              <i class="fa-solid fa-eye"></i>
+            </div>
           </div>
         </div>
         <button class="button signup-button">Create account</button>
@@ -127,16 +145,21 @@
           </div>
         </div>
         <div>
-          <label>Email</label>
+          <label>Password</label>
           <div class="input mt-2">
             <div>
-              <i class="fa-solid fa-envelope"></i>
+              <i class="fa-solid fa-lock"></i>
             </div>
             <input
-              type="email"
-              placeholder="Enter email address"
+              type="password"
+              placeholder="Enter your password"
               autocomplete="off"
+              class="password-input"
+              data-input="enter-password"
             />
+            <div class="show-password" data-input-target="enter-password">
+              <i class="fa-solid fa-eye"></i>
+            </div>
           </div>
         </div>
         <button class="button signup-button">Create account</button>

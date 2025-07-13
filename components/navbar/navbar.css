@@ -194,6 +194,9 @@
   width: 100%;
   font-weight: bold;
 }
+.show-password {
+  cursor: pointer;
+}
 /*  */
 @media screen and (max-width: 768px) {
   .menu,
