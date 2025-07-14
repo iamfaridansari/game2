@@ -1,0 +1,52 @@
+[
+  {
+    "img": "https://i.pravatar.cc/50?img=1",
+    "name": "Alice Johnson",
+    "message": "Hello! Just checking in with the latest updates."
+  },
+  {
+    "img": "https://i.pravatar.cc/50?img=2",
+    "name": "Michael Lee",
+    "message": "Can you send me the report by EOD?"
+  },
+  {
+    "img": "https://i.pravatar.cc/50?img=3",
+    "name": "Priya Mehta",
+    "message": "Let's meet tomorrow to finalize the design."
+  },
+  {
+    "img": "https://i.pravatar.cc/50?img=4",
+    "name": "David Kim",
+    "message": "I've updated the project files as requested."
+  },
+  {
+    "img": "https://i.pravatar.cc/50?img=5",
+    "name": "Sara Ali",
+    "message": "Can we reschedule our call to 4 PM?"
+  },
+  {
+    "img": "https://i.pravatar.cc/50?img=6",
+    "name": "Liam Smith",
+    "message": "Great job on the presentation today!"
+  },
+  {
+    "img": "https://i.pravatar.cc/50?img=7",
+    "name": "Emily Wang",
+    "message": "I'll be working remotely this week."
+  },
+  {
+    "img": "https://i.pravatar.cc/50?img=8",
+    "name": "Omar Faruk",
+    "message": "Please review the latest commit on GitHub."
+  },
+  {
+    "img": "https://i.pravatar.cc/50?img=9",
+    "name": "Anita Kapoor",
+    "message": "Thanks for the help earlier!"
+  },
+  {
+    "img": "https://i.pravatar.cc/50?img=10",
+    "name": "John Doe",
+    "message": "Let's grab coffee sometime this week."
+  }
+]
