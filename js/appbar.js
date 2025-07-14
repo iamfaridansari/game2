@@ -12,6 +12,12 @@ document.addEventListener("DOMContentLoaded", () => {
           appBarDiv.classList.toggle("active");
           if (window.innerWidth <= 576) {
             document.getElementById("chat-bar-div").classList.remove("active");
+            document
+              .querySelector(".chat-bar-button i")
+              .classList.remove("fa-times");
+            document
+              .querySelector(".chat-bar-button i")
+              .classList.add("fa-message");
           }
         });
       });
