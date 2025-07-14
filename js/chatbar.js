@@ -43,6 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
             chatBarIcon.classList.remove("fa-times");
             chatBarIcon.classList.add("fa-message");
           }
+          if (window.innerWidth <= 576) {
+            document.getElementById("app-bar-div").classList.remove("active");
+          }
         });
       });
     });

@@ -10,7 +10,16 @@ document.addEventListener("DOMContentLoaded", () => {
       menu.forEach((btn) => {
         btn.addEventListener("click", () => {
           appBarDiv.classList.toggle("active");
+          if (window.innerWidth <= 576) {
+            document.getElementById("chat-bar-div").classList.remove("active");
+          }
         });
+      });
+
+      //
+      const rewards = document.getElementById("rewards");
+      rewards.addEventListener("click", () => {
+        rewards.classList.toggle("hide");
       });
     });
 });
