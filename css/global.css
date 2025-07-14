@@ -87,3 +87,7 @@ textarea {
 .yellow-text {
   color: var(--yellow);
 }
+a {
+  color: #fff;
+  text-decoration: none;
+}

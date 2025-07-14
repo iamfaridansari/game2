@@ -1,0 +1,62 @@
+.app-bar {
+  width: 280px;
+  height: calc(100vh - 56px);
+  padding: 8px;
+}
+.app-bar-btn {
+  border-radius: var(--radius);
+  cursor: pointer;
+  margin: 8px auto 16px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  padding: 16px;
+  background: #1d1d20;
+}
+.app-bar-btn i,
+.rewards i {
+  font-size: 16px;
+}
+.home-btn,
+.gamedom-btn {
+  background: var(--yellow);
+  color: #000;
+}
+.discord-btn {
+  background: #687afa;
+}
+.rewards {
+  background: #1d1d20;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.rewards li a,
+.rewards li:nth-child(1) {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  padding: 16px;
+  transition: var(--transition);
+}
+.rewards li:nth-child(1) {
+  color: #fff;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.rewards li a:hover,
+.rewards li:nth-child(1):hover {
+  background: #ffffff1a;
+}
+.contact-btn {
+  transition: var(--transition);
+}
+.contact-btn:hover {
+  background: #ffffff1a;
+}
