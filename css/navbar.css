@@ -29,20 +29,6 @@
 .nav-logo {
   width: 100px;
 }
-.login-button {
-  color: #fff;
-  transition: var(--transition);
-  font-weight: bold;
-}
-.login-button:hover {
-  background: #fff;
-  color: #000;
-}
-.register-button {
-  background: var(--yellow);
-  transition: var(--transition);
-  font-weight: bold;
-}
 .message-button {
   background: transparent;
 }
@@ -167,27 +153,23 @@
   justify-content: space-evenly;
   gap: 12px;
 }
-.input {
+.signup .input,
+.login .input {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 16px;
-  border: 1px solid #fff3;
-  padding: 8px;
-  border-radius: var(--radius);
 }
 .input i {
   color: #4f5052;
 }
-.input input {
+.signup .input input,
+.login .input input {
   background: none;
   width: 100%;
   outline: none;
   border: none;
   color: #fff;
-}
-.input i::placeholder {
-  color: #4f5052;
 }
 .signup-button {
   background: var(--yellow);

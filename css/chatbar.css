@@ -1,10 +1,18 @@
 .chat-bar {
-  width: 280px;
+  width: 0;
   height: calc(100vh - 56px);
   overflow-y: auto;
-  padding: 8px;
+  padding: 0;
+  position: relative;
+  opacity: 0;
+  transition: var(--transition);
+  background: var(--background);
 }
-
+.chat-bar.active {
+  width: 280px;
+  padding: 8px 8px 0;
+  opacity: 1;
+}
 .chat-bar ul li {
   display: flex;
   align-items: flex-start;
@@ -22,4 +30,24 @@
   max-height: 40px;
   border-radius: 50%;
   overflow: hidden;
+}
+.message-box {
+  padding: 8px 0;
+  position: sticky;
+  bottom: 0;
+  background: var(--background);
+}
+.breaker {
+  height: 1px;
+  background: #fff3;
+  margin: 8px 0 16px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .chat-bar {
+    position: fixed;
+    right: 0;
+    top: 100px;
+    height: calc(100vh - 100px);
+  }
 }

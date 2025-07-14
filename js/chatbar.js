@@ -28,5 +28,22 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch((err) => {
           console.error("Failed to load chat data:", err);
         });
+
+      //
+      const chatBarButton = document.querySelectorAll(".chat-bar-button");
+      const chatBarDiv = document.getElementById("chat-bar-div");
+      const chatBarIcon = document.querySelector(".chat-bar-button i");
+      chatBarButton.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          chatBarDiv.classList.toggle("active");
+          if (chatBarIcon.classList.contains("fa-message")) {
+            chatBarIcon.classList.remove("fa-message");
+            chatBarIcon.classList.add("fa-times");
+          } else {
+            chatBarIcon.classList.remove("fa-times");
+            chatBarIcon.classList.add("fa-message");
+          }
+        });
+      });
     });
 });
