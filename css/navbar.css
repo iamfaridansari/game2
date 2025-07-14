@@ -17,7 +17,7 @@
 }
 .menu,
 .message-button {
-  background: var(--grey);
+  background: #ffffff1a;
   width: 50px;
   height: 40px;
   color: #fff;
@@ -33,7 +33,7 @@
   background: transparent;
 }
 .message-button:hover {
-  background: var(--grey);
+  background: #ffffff1a;
 }
 .nav-bar2 {
   width: 100%;

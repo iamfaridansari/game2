@@ -1,7 +1,12 @@
 .app-bar {
-  width: 280px;
+  width: 66px;
   height: calc(100vh - 56px);
   padding: 8px;
+  transition: var(--transition);
+  background: var(--background);
+}
+.app-bar.active {
+  width: 280px;
 }
 .app-bar-btn {
   border-radius: var(--radius);
@@ -9,16 +14,29 @@
   margin: 8px auto 16px;
   width: 100%;
   height: 40px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  background: #1d1d20;
+}
+.app-bar.active .app-bar-btn {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 16px;
   padding: 16px;
-  background: #1d1d20;
 }
 .app-bar-btn i,
 .rewards i {
   font-size: 16px;
+}
+.app-bar-btn span,
+.rewards span {
+  display: none;
+}
+.app-bar.active .app-bar-btn span,
+.app-bar.active .rewards span {
+  display: block;
 }
 .home-btn,
 .gamedom-btn {
@@ -37,18 +55,28 @@
 .rewards li:nth-child(1) {
   width: 100%;
   height: 40px;
+  display: grid;
+  place-items: center;
+  transition: var(--transition);
+}
+.rewards li:nth-child(1) {
+  color: #fff;
+  display: none;
+  cursor: pointer;
+}
+.app-bar.active .rewards li:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 16px;
+}
+.app-bar.active .rewards li a {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 16px;
   padding: 16px;
-  transition: var(--transition);
-}
-.rewards li:nth-child(1) {
-  color: #fff;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  cursor: pointer;
 }
 .rewards li a:hover,
 .rewards li:nth-child(1):hover {
@@ -59,4 +87,17 @@
 }
 .contact-btn:hover {
   background: #ffffff1a;
+}
+
+@media screen and (max-width: 768px) {
+  .app-bar {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    height: calc(100vh - 100px);
+    transform: translateX(-100%);
+  }
+  .app-bar.active {
+    transform: translateX(0);
+  }
 }
