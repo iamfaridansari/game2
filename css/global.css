@@ -91,3 +91,9 @@ a {
   color: #fff;
   text-decoration: none;
 }
+.center-div {
+  flex-grow: 1;
+  min-width: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
