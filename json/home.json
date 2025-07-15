@@ -147,5 +147,37 @@
       "image": "../images/live_wins_img.webp",
       "price": "$16.99"
     }
+  ],
+  "golden_grid": [
+    {
+      "image": "./images/golden-grid-video.webm",
+      "link": "#",
+      "title": "Bonuses"
+    },
+    {
+      "image": "./images/golden-grid-video.webm",
+      "link": "#",
+      "title": "Rakeback"
+    },
+    {
+      "image": "./images/golden-grid-video.webm",
+      "link": "#",
+      "title": "Free Spins"
+    },
+    {
+      "image": "./images/golden-grid-video.webm",
+      "link": "#",
+      "title": "XP Rewards"
+    },
+    {
+      "image": "./images/golden-grid-video.webm",
+      "link": "#",
+      "title": "Cashback"
+    },
+    {
+      "image": "./images/golden-grid-video.webm",
+      "link": "#",
+      "title": "Mystery Box"
+    }
   ]
 }

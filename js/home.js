@@ -3,10 +3,12 @@ document.addEventListener("DOMContentLoaded", () => {
     "home-promotion-carousel"
   );
   const liveWinsCarousel = document.getElementById("live-wins-carousel");
+  const goldenGrid = document.getElementById("golden-grid");
 
   //
   homePromotionCarousel.innerHTML = "";
   liveWinsCarousel.innerHTML = "";
+  goldenGrid.innerHTML = "";
   //
 
   fetch("../json/home.json")
@@ -36,6 +38,20 @@ document.addEventListener("DOMContentLoaded", () => {
               </p>
         `;
         liveWinsCarousel.appendChild(el);
+      });
+
+      //
+      const goldenGridData = data.golden_grid;
+      goldenGridData.forEach((item) => {
+        const el = document.createElement("a");
+        el.href = item.link;
+        el.innerHTML = `
+        <video src="../images/golden-grid-video.webm" muted loop playsinline></video>
+            <div class="golden-title glass">
+              <p>${item.title}</p>
+            </div>
+        `;
+        goldenGrid.appendChild(el);
       });
     })
     .catch((err) => {
