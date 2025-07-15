@@ -96,4 +96,8 @@ a {
   min-width: 0;
   overflow: hidden;
   transition: var(--transition);
+  padding: 8px;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
 }

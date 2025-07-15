@@ -8,6 +8,7 @@
 .nav-bar {
   padding: 8px;
   gap: 24px;
+  z-index: 10;
 }
 .nav-bar-inner {
   flex: 1;

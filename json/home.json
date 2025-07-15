@@ -1,22 +1,151 @@
-[
-  {
-    "link": "#",
-    "image": "../images/carousel-item.png",
-    "title": "17Noir Challenges are now Live!"
-  },
-  {
-    "link": "#",
-    "image": "../images/carousel-item.png",
-    "title": "Weekly Poker Tournament"
-  },
-  {
-    "link": "#",
-    "image": "../images/carousel-item.png",
-    "title": "Gamdom Raffle Leaderboard"
-  },
-  {
-    "link": "#",
-    "image": "../images/carousel-item.png",
-    "title": "Introducing Blackjack"
-  }
-]
+{
+  "home_promotion_carousel": [
+    {
+      "link": "#",
+      "image": "../images/carousel-item.png",
+      "title": "17Noir Challenges are now Live!"
+    },
+    {
+      "link": "#",
+      "image": "../images/carousel-item.png",
+      "title": "Weekly Poker Tournament"
+    },
+    {
+      "link": "#",
+      "image": "../images/carousel-item.png",
+      "title": "Gamdom Raffle Leaderboard"
+    },
+    {
+      "link": "#",
+      "image": "../images/carousel-item.png",
+      "title": "Introducing Blackjack"
+    },
+    {
+      "link": "#",
+      "image": "../images/carousel-item.png",
+      "title": "17Noir Challenges are now Live!"
+    },
+    {
+      "link": "#",
+      "image": "../images/carousel-item.png",
+      "title": "Weekly Poker Tournament"
+    },
+    {
+      "link": "#",
+      "image": "../images/carousel-item.png",
+      "title": "Gamdom Raffle Leaderboard"
+    },
+    {
+      "link": "#",
+      "image": "../images/carousel-item.png",
+      "title": "Introducing Blackjack"
+    }
+  ],
+  "live_wins": [
+    {
+      "name": "Exclusive Bonus Pack",
+      "image": "../images/live_wins_img.webp",
+      "price": "$9.99"
+    },
+    {
+      "name": "Weekend Tournament Entry",
+      "image": "../images/live_wins_img.webp",
+      "price": "$4.50"
+    },
+    {
+      "name": "VIP Access Token",
+      "image": "../images/live_wins_img.webp",
+      "price": "$19.99"
+    },
+    {
+      "name": "Gold Membership",
+      "image": "../images/live_wins_img.webp",
+      "price": "$29.99"
+    },
+    {
+      "name": "Starter Pack",
+      "image": "../images/live_wins_img.webp",
+      "price": "$2.99"
+    },
+    {
+      "name": "Daily Reward Booster",
+      "image": "../images/live_wins_img.webp",
+      "price": "$1.50"
+    },
+    {
+      "name": "Limited Time Offer",
+      "image": "../images/live_wins_img.webp",
+      "price": "$7.00"
+    },
+    {
+      "name": "Mega Spin Ticket",
+      "image": "../images/live_wins_img.webp",
+      "price": "$3.49"
+    },
+    {
+      "name": "Jackpot Challenge Entry",
+      "image": "../images/live_wins_img.webp",
+      "price": "$6.99"
+    },
+    {
+      "name": "Platinum Pass",
+      "image": "../images/live_wins_img.webp",
+      "price": "$39.99"
+    },
+    {
+      "name": "Premium Pack",
+      "image": "../images/live_wins_img.webp",
+      "price": "$14.99"
+    },
+    {
+      "name": "Referral Reward",
+      "image": "../images/live_wins_img.webp",
+      "price": "$5.00"
+    },
+    {
+      "name": "Holiday Bonus Box",
+      "image": "../images/live_wins_img.webp",
+      "price": "$11.00"
+    },
+    {
+      "name": "New Year Offer",
+      "image": "../images/live_wins_img.webp",
+      "price": "$8.88"
+    },
+    {
+      "name": "Flash Sale Bundle",
+      "image": "../images/live_wins_img.webp",
+      "price": "$12.49"
+    },
+    {
+      "name": "Spin Wheel Token",
+      "image": "../images/live_wins_img.webp",
+      "price": "$0.99"
+    },
+    {
+      "name": "Event Pass",
+      "image": "../images/live_wins_img.webp",
+      "price": "$10.00"
+    },
+    {
+      "name": "Surprise Box",
+      "image": "../images/live_wins_img.webp",
+      "price": "$6.66"
+    },
+    {
+      "name": "Loyalty Bonus",
+      "image": "../images/live_wins_img.webp",
+      "price": "$2.00"
+    },
+    {
+      "name": "Mystery Gift",
+      "image": "../images/live_wins_img.webp",
+      "price": "$13.37"
+    },
+    {
+      "name": "Battle Pass",
+      "image": "../images/live_wins_img.webp",
+      "price": "$16.99"
+    }
+  ]
+}
