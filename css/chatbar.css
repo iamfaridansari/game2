@@ -7,7 +7,12 @@
   opacity: 0;
   transition: var(--transition);
   background: var(--background);
-  z-index: 10;
+}
+#chat-bar-section {
+  position: sticky;
+  top: 56px;
+  height: 56px;
+  z-index: 9;
 }
 .chat-bar.active {
   width: 280px;

@@ -4,7 +4,12 @@
   padding: 8px;
   transition: var(--transition);
   background: var(--background);
-  z-index: 10;
+}
+#app-bar {
+  position: sticky;
+  top: 56px;
+  height: 56px;
+  z-index: 9;
 }
 .app-bar-btn {
   border-radius: var(--radius);

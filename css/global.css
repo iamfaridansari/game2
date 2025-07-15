@@ -9,7 +9,9 @@ html {
 body {
   width: 100%;
   overflow-x: hidden;
-  background: var(--background);
+  background: url(../images/background.webp) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 @font-face {
   font-family: "Inter";

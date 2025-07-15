@@ -46,12 +46,21 @@ document.addEventListener("DOMContentLoaded", () => {
         const el = document.createElement("a");
         el.href = item.link;
         el.innerHTML = `
-        <video src="../images/golden-grid-video.webm" muted loop playsinline></video>
+        <video src="../images/golden-grid-video.webm" muted playsinline></video>
             <div class="golden-title glass">
               <p>${item.title}</p>
             </div>
         `;
         goldenGrid.appendChild(el);
+      });
+
+      //
+      document.querySelectorAll(".golden-grid a").forEach((item) => {
+        item.addEventListener("mouseenter", (e) => {
+          const currentTarget = e.currentTarget;
+          const video = currentTarget.querySelector("video");
+          video.play();
+        });
       });
     })
     .catch((err) => {
