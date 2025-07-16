@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const el = document.createElement("a");
         el.href = item.link;
         el.classList.add("originals-item");
-        el.style.border = `1px solid ${item.color}`;
+        el.style.border = `2px solid ${item.color}`;
         el.innerHTML = `
         <img src="${item.image}" alt="" />
         `;

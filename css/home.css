@@ -107,6 +107,10 @@ a video {
   height: 200px;
   border-radius: var(--radius);
   overflow: hidden;
+  transition: var(--transition);
+}
+.originals-item:hover {
+  transform: translateY(-8px);
 }
 .originals-item img {
   height: 100%;

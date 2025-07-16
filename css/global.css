@@ -84,10 +84,12 @@ ul {
 h1 {
   font-size: 48px;
   margin: 0;
+  color: #fff;
 }
 h2 {
   font-size: 32px;
   margin: 0;
+  color: #fff;
 }
 p,
 a,
@@ -97,12 +99,12 @@ input,
 button,
 textarea {
   font-size: 14px !important;
+  color: #fff;
 }
 .yellow-text {
   color: var(--yellow);
 }
 a {
-  color: #fff;
   text-decoration: none;
 }
 .center-div {
