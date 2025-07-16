@@ -1,0 +1,67 @@
+.contact-page-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 16px;
+}
+.contact-left,
+.contact-right {
+  padding: 16px;
+  background: #1a1b1e;
+  border-radius: var(--radius);
+  width: 100%;
+  border: 1px solid #2a2b2e;
+}
+.contact-left-box {
+  padding: 16px;
+  background: #262628;
+  margin-top: 16px;
+  border-radius: var(--radius);
+}
+.contact-left-box a {
+  color: var(--discord);
+}
+.contact-discord,
+.email-support {
+  min-width: 40px;
+  height: 40px;
+  background: var(--discord);
+  border-radius: var(--radius);
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+.email-support {
+  background: var(--yellow);
+  color: #000;
+}
+.contact-right .input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.contact-right .input input,
+.contact-right .input textarea {
+  background: none;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+.contact-right .input textarea {
+  min-height: 50px;
+  max-height: 100px;
+  overflow-y: auto;
+}
+.contact-right label {
+  margin-bottom: 4px;
+}
+
+@media screen and (max-width: 992px) {
+  .contact-page-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -37,7 +37,7 @@
   color: #000;
 }
 .discord-btn {
-  background: #687afa;
+  background: var(--discord);
 }
 .rewards {
   background: #1d1d20;

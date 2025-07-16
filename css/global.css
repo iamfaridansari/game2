@@ -34,6 +34,7 @@ body {
   --grey: #fff3;
   --transition: 0.5s all ease-in-out;
   --radius: 8px;
+  --discord: #6779fa;
 }
 img {
   width: 100%;
@@ -56,6 +57,7 @@ p {
 }
 .yellow-button {
   background: var(--yellow);
+  color: #000;
 }
 .white-button {
   color: #fff;
@@ -155,4 +157,7 @@ a {
 }
 .tourney-font {
   font-family: "Tourney";
+}
+.text-secondary {
+  color: #9ca3af !important;
 }
