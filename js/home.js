@@ -4,11 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
   );
   const liveWinsCarousel = document.getElementById("live-wins-carousel");
   const goldenGrid = document.getElementById("golden-grid");
+  const originalsCarousel = document.getElementById("originals-carousel");
 
   //
   homePromotionCarousel.innerHTML = "";
   liveWinsCarousel.innerHTML = "";
   goldenGrid.innerHTML = "";
+  originalsCarousel.innerHTML = "";
   //
 
   fetch("../json/home.json")
@@ -61,6 +63,19 @@ document.addEventListener("DOMContentLoaded", () => {
           const video = currentTarget.querySelector("video");
           video.play();
         });
+      });
+
+      //
+      const originalsData = data.originals;
+      originalsData.forEach((item) => {
+        const el = document.createElement("a");
+        el.href = item.link;
+        el.classList.add("originals-item");
+        el.style.border = `1px solid ${item.color}`;
+        el.innerHTML = `
+        <img src="${item.image}" alt="" />
+        `;
+        originalsCarousel.appendChild(el);
       });
     })
     .catch((err) => {

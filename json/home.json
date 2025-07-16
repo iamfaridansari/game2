@@ -179,5 +179,55 @@
       "link": "#",
       "title": "Mystery Box"
     }
+  ],
+  "originals": [
+    {
+      "link": "#",
+      "image": "./images/originals-img.webp",
+      "title": "Inferno Spins",
+      "color": "#FF5733"
+    },
+    {
+      "link": "#",
+      "image": "./images/originals-img.webp",
+      "title": "Lucky Vault",
+      "color": "#33FF57"
+    },
+    {
+      "link": "#",
+      "image": "./images/originals-img.webp",
+      "title": "Shadow Wheel",
+      "color": "#3375FF"
+    },
+    {
+      "link": "#",
+      "image": "./images/originals-img.webp",
+      "title": "Gold Rush",
+      "color": "#FFD700"
+    },
+    {
+      "link": "#",
+      "image": "./images/originals-img.webp",
+      "title": "Crypto Clash",
+      "color": "#8E44AD"
+    },
+    {
+      "link": "#",
+      "image": "./images/originals-img.webp",
+      "title": "Sky Spin",
+      "color": "#00BCD4"
+    },
+    {
+      "link": "#",
+      "image": "./images/originals-img.webp",
+      "title": "Neon Dice",
+      "color": "#FF1493"
+    },
+    {
+      "link": "#",
+      "image": "./images/originals-img.webp",
+      "title": "Turbo Flip",
+      "color": "#FFA500"
+    }
   ]
 }
