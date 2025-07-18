@@ -1,12 +1,12 @@
 {
   "tabs": [
     {
-      "icon": "fa-volume-low",
-      "title": "Active"
-    },
-    {
       "icon": "fa-border-all",
       "title": "All"
+    },
+    {
+      "icon": "fa-volume-low",
+      "title": "Active"
     },
     {
       "icon": "fa-dice",
