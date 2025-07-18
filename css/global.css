@@ -25,6 +25,10 @@ body {
   font-family: "Tourney";
   src: url(../fonts/Tourney.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Arcade";
+  src: url(../fonts/Arcade.TTF) format("truetype");
+}
 :root {
   --inter: "Inter", sans-serif;
   --golos: "Golos", sans-serif;
@@ -84,7 +88,7 @@ ul {
   margin: 0;
 }
 h1 {
-  font-size: 48px;
+  font-size: 60px;
   margin: 0;
   color: #fff;
 }
