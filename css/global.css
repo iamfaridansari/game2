@@ -175,3 +175,9 @@ a {
   justify-content: flex-start;
   gap: 8px;
 }
+.main-div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
