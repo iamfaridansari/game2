@@ -5,12 +5,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const liveWinsCarousel = document.getElementById("live-wins-carousel");
   const goldenGrid = document.getElementById("golden-grid");
   const originalsCarousel = document.getElementById("originals-carousel");
+  const latestContestCarousel = document.getElementById(
+    "latest-contest-carousel"
+  );
 
   //
   homePromotionCarousel.innerHTML = "";
   liveWinsCarousel.innerHTML = "";
   goldenGrid.innerHTML = "";
   originalsCarousel.innerHTML = "";
+  latestContestCarousel.innerHTML = "";
   //
 
   fetch("../json/home.json")
@@ -35,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
         el.innerHTML = `
           <img src=${item.image} alt="" />
               <p>${item.name}</p>
-              <p class="yellow-text">
+              <p class="yellow-text dollar-para">
                 <i class="fa-solid fa-sack-dollar"></i>${item.price}
               </p>
         `;
@@ -76,6 +80,20 @@ document.addEventListener("DOMContentLoaded", () => {
         <img src="${item.image}" alt="" />
         `;
         originalsCarousel.appendChild(el);
+      });
+
+      //
+      const latestContestData = data.latest_contest;
+      latestContestData.forEach((item) => {
+        const el = document.createElement("a");
+        el.href = item.link;
+        el.classList.add("latest-contest-item");
+        el.innerHTML = `
+          <img src="${item.image}" alt="" />
+                <p class="fw-bold">${item.title}</p>
+                <p class="text-secondary">${item.date}</p>
+        `;
+        latestContestCarousel.appendChild(el);
       });
     })
     .catch((err) => {

@@ -6,7 +6,8 @@
 }
 .home-promotion-carousel-wrapper,
 .live-wins-wrapper,
-.originals-wrapper {
+.originals-wrapper,
+.latest-contest-carousel-wrapper {
   overflow-x: auto;
   white-space: nowrap;
 }
@@ -114,6 +115,49 @@ a video {
 }
 .originals-item img {
   height: 100%;
+}
+.dollar-para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.latest-contest-carousel {
+  display: flex;
+  gap: 16px;
+}
+.latest-contest-item {
+  min-width: 300px;
+  max-width: 300px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: var(--transition);
+}
+.latest-contest-item img {
+  height: 180px;
+}
+.latest-contest-item p {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.latest-contest-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.latest-contest-title i {
+  font-size: 48px;
+  color: var(--yellow);
+}
+.latest-contest-title h1,
+.latest-contest-title h2 {
+  font-family: "Tourney";
+}
+.latest-contest-title h1 {
+  transform: translateY(-10px);
 }
 @media screen and (max-width: 1200px) {
   .golden-grid {
