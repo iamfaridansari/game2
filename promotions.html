@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="./css/chatbar.css" />
     <link rel="stylesheet" href="./css/appbar.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/promotions.css" />
   </head>
   <body>
     <section id="navbar"></section>
@@ -33,11 +34,34 @@
       <section id="app-bar-section"></section>
 
       <section class="center-div" id="center-div">
+        <ul class="promotions-tabs" id="promotions-tabs"></ul>
+
+        <div class="promotions-grid mt-4">
+          <div class="promotion-card">
+            <img src="./images/promotions-img.png" alt="" />
+            <p class="mt-2">Lorem ipsum dolor sit.</p>
+
+            <div
+              class="d-flex align-items-center justify-content-start gap-2 mt-2"
+            >
+              <div class="promotion-pill active-pill">
+                <p>Active</p>
+              </div>
+              <div class="promotion-pill casino-pill">
+                <p>Casino</p>
+              </div>
+              <div class="promotion-pill featured-pill">
+                <p>Featured</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <section id="footer"></section>
       </section>
+      <section id="chat-bar-section"></section>
     </div>
 
-    <section id="chat-bar-section"></section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
@@ -47,5 +71,6 @@
     <script src="./js/appbar.js" defer></script>
     <script src="./js/chatbar.js" defer></script>
     <script src="./js/footer.js"></script>
+    <script src="./js/promotions.js"></script>
   </body>
 </html>

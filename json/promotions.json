@@ -1,0 +1,98 @@
+{
+  "tabs": [
+    {
+      "icon": "fa-volume-low",
+      "title": "Active"
+    },
+    {
+      "icon": "fa-border-all",
+      "title": "All"
+    },
+    {
+      "icon": "fa-dice",
+      "title": "Casino"
+    },
+    {
+      "icon": "fa-medal",
+      "title": "Leaderboard"
+    },
+    {
+      "icon": "fa-volleyball",
+      "title": "Sports"
+    },
+    {
+      "icon": "fa-gem",
+      "title": "VIP"
+    },
+    {
+      "icon": "fa-money-bill-1-wave",
+      "title": "Bonus"
+    },
+    {
+      "icon": "fa-hourglass-end",
+      "title": "Ended"
+    }
+  ],
+  "promotion_cards": [
+    {
+      "image": "./images/promotions-img.png",
+      "link": "#",
+      "title": "Lorem ipsum dolor sit.",
+      "tags": ["Active", "Casino", "VIP"]
+    },
+    {
+      "image": "./images/promotions-img.png",
+      "link": "#",
+      "title": "Exclusive leaderboard contest",
+      "tags": ["Leaderboard", "Ended"]
+    },
+    {
+      "image": "./images/promotions-img.png",
+      "link": "#",
+      "title": "Play & win VIP rewards",
+      "tags": ["VIP", "Bonus", "Active"]
+    },
+    {
+      "image": "./images/promotions-img.png",
+      "link": "#",
+      "title": "Weekend sports offer",
+      "tags": ["Sports", "Active"]
+    },
+    {
+      "image": "./images/promotions-img.png",
+      "link": "#",
+      "title": "All Games unlocked",
+      "tags": ["All", "Active", "Bonus", "Casino"]
+    },
+    {
+      "image": "./images/promotions-img.png",
+      "link": "#",
+      "title": "Casino challenge starts",
+      "tags": ["Casino", "Leaderboard"]
+    },
+    {
+      "image": "./images/promotions-img.png",
+      "link": "#",
+      "title": "Limited-time bonus event",
+      "tags": ["Ended", "Bonus"]
+    },
+    {
+      "image": "./images/promotions-img.png",
+      "link": "#",
+      "title": "Daily sports rush",
+      "tags": ["Sports", "Active"]
+    },
+    {
+      "image": "./images/promotions-img.png",
+      "link": "#",
+      "title": "VIP Bonus Hunt",
+      "tags": ["VIP", "Bonus"]
+    },
+    {
+      "image": "./images/promotions-img.png",
+      "link": "#",
+      "title": "Everything is on!",
+      "tags": ["All", "Active", "Casino", "Sports", "Bonus"]
+    }
+  ]
+}
