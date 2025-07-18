@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
             chatBarIcon.classList.add("fa-message");
           }
           if (window.innerWidth <= 576) {
-            document.getElementById("app-bar-div").classList.remove("active");
+            document.getElementById("app-bar").classList.remove("active");
           }
         });
       });
