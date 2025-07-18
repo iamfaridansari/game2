@@ -1,0 +1,60 @@
+footer {
+  width: 100%;
+  padding: 8px;
+  border-top: 1px solid var(--grey);
+  margin-top: 16px;
+}
+.footer-top-flex,
+.links-wrapper,
+.footer-bottom-flex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-top-flex {
+  gap: 16px;
+}
+.links-wrapper {
+  gap: 32px;
+}
+.links-wrapper ul {
+  list-style-type: none;
+}
+.links-wrapper ul li {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.links-wrapper ul li a {
+  transition: var(--transition);
+}
+.links-wrapper ul li a:hover {
+  color: var(--yellow);
+}
+.footer-logo {
+  width: 100px;
+}
+.twitter:hover {
+  color: #1da1f2 !important;
+}
+.instagram:hover {
+  color: #e1306c !important;
+}
+.kick:hover {
+  color: #52c4a1 !important;
+}
+.discord:hover {
+  color: var(--discord) !important;
+}
+.facebook:hover {
+  color: #1877f2 !important;
+}
+.footer-bottom-flex {
+  margin-top: 16px;
+  padding-top: 16px;
+  gap: 16px;
+  border-top: 1px solid var(--grey);
+}
+.gamble-aware {
+  max-width: 200px;
+}

@@ -45,11 +45,6 @@ img {
   height: auto;
   object-fit: cover;
 }
-p {
-  font-family: var(--inter);
-  margin: 0;
-  color: #fff;
-}
 .button {
   border: none;
   border-radius: 8px;
@@ -98,6 +93,12 @@ h2 {
   color: #fff;
   font-family: "Inter";
 }
+h3 {
+  font-size: 24px;
+  margin: 0;
+  color: #fff;
+  font-family: "Inter";
+}
 p,
 a,
 li,
@@ -107,6 +108,8 @@ button,
 textarea {
   font-size: 14px !important;
   color: #fff;
+  font-family: "Inter";
+  margin: 0;
 }
 .yellow-text {
   color: var(--yellow);
@@ -165,4 +168,10 @@ a {
 }
 .text-secondary {
   color: #9ca3af !important;
+}
+.icon-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
 }
