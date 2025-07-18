@@ -95,6 +95,30 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
         latestContestCarousel.appendChild(el);
       });
+
+      //
+      fetch("../components/homeAccordion.html")
+        .then((res) => res.text())
+        .then((data) => {
+          document.getElementById("home-accordion").innerHTML = data;
+
+          document.querySelectorAll(".home-accordion-head").forEach((item) => {
+            item.addEventListener("click", (e) => {
+              document.querySelectorAll(".home-accordion-wrapper");
+
+              const currentWrapper = e.currentTarget.parentElement;
+              const body = currentWrapper.querySelector(".home-accordion-body");
+
+              if (currentWrapper.classList.contains("active")) {
+                currentWrapper.classList.remove("active");
+                body.style.maxHeight = null;
+              } else {
+                currentWrapper.classList.add("active");
+                body.style.maxHeight = body.scrollHeight + "px";
+              }
+            });
+          });
+        });
     })
     .catch((err) => {
       console.error("Failed to load carousel data:", err);
