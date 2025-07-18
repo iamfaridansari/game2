@@ -242,6 +242,65 @@ a video {
   bottom: 0;
   z-index: 2;
 }
+.gamedom-box-wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.gamedom-box-wrapper h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.gamedom-box-wrapper h2 i {
+  color: var(--green);
+}
+.gamedom-logo {
+  font-size: 80px;
+  color: var(--green);
+  text-align: center;
+}
+.gamedom-box {
+  border: 2px solid var(--green);
+  padding: 40px 16px 16px;
+  border-radius: var(--radius);
+  text-align: center;
+}
+.gamedom-box h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Golos";
+}
+.gamedom-box h2:nth-child(1) {
+  color: var(--green);
+}
+.copy-code,
+.claim-bonus-button {
+  width: 100%;
+  padding: 8px 16px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.copy-code {
+  background: #fff;
+  border-radius: var(--radius);
+  margin: 8px 0;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.claim-bonus-button {
+  background: var(--green);
+  color: #000;
+  display: block;
+}
+.gamedom-logo-shift {
+  transform: translateY(50px);
+}
 @media screen and (max-width: 1200px) {
   .golden-grid {
     grid-template-columns: repeat(2, 1fr);
