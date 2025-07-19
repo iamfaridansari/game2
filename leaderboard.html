@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game2</title>
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/chatbar.css" />
+    <link rel="stylesheet" href="./css/appbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/leaderboard.css" />
+  </head>
+  <body>
+    <section id="navbar"></section>
+
+    <div class="main-div">
+      <section id="app-bar-section"></section>
+      <section class="center-div" id="center-div">
+        <!--  -->
+        <div class="leaderboard-title">
+          <h1>Leaderboard</h1>
+        </div>
+
+        <div class="leaderboard-timer">
+          <p>
+            <span id="leaderboard-days">90</span>
+            <span class="text-secondary">days</span>
+          </p>
+          <p>
+            <span id="leaderboard-hours">21</span>
+            <span class="text-secondary">hours</span>
+          </p>
+          <p>
+            <span id="leaderboard-minutes">53</span>
+            <span class="text-secondary">min</span>
+          </p>
+          <p>
+            <span id="leaderboard-seconds">18</span>
+            <span class="text-secondary">sec</span>
+          </p>
+        </div>
+
+        <div
+          class="d-flex align-items-center justify-content-center gap-2 flex-wrap mt-4"
+        >
+          <button
+            class="button green-button icon-button"
+            style="width: 210px; height: 40px"
+          >
+            <i class="fa-solid fa-chess-rook"></i>Join gamedom
+          </button>
+          <button
+            class="button glass icon-button"
+            style="width: 210px; height: 40px"
+          >
+            <i class="fa-solid fa-list"></i>Competition Info
+          </button>
+        </div>
+
+        <div class="winner-stage my-5" id="winner-stage">
+          <div class="winner-card-wrapper">
+            <div class="winner-card">
+              <i class="fa-solid fa-trophy"></i>
+              <img src="./images/profile-picture.avif" alt="" />
+              <h3>Farid Ansari</h3>
+              <div class="my-2">
+                <p class="text-secondary">Ticket No</p>
+                <p>#123</p>
+              </div>
+              <div class="my-2">
+                <p class="text-secondary">Reward</p>
+                <h3 class="yellow-text">$100</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+        <section id="footer"></section>
+      </section>
+      <section id="chat-bar-section"></section>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/navbar.js" defer></script>
+    <script src="./js/appbar.js" defer></script>
+    <script src="./js/chatbar.js" defer></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/leaderboard.js"></script>
+  </body>
+</html>

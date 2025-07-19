@@ -35,6 +35,7 @@ body {
   --background: #151518;
   --yellow: #fac42d;
   --green: #3bff97;
+  --red: #fe4554;
   --grey: #fff3;
   --transition: 0.5s all ease-in-out;
   --radius: 8px;
@@ -56,6 +57,10 @@ img {
 }
 .yellow-button {
   background: var(--yellow);
+  color: #000;
+}
+.green-button {
+  background: var(--green);
   color: #000;
 }
 .white-button {
@@ -114,6 +119,12 @@ textarea {
 .yellow-text {
   color: var(--yellow);
 }
+.green-text {
+  color: var(--green);
+}
+.red-text {
+  color: var(--red);
+}
 a {
   text-decoration: none;
 }
@@ -128,40 +139,11 @@ a {
   display: none;
 }
 .glass {
-  background: rgba(0, 0, 0, 0.55);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6),
-    inset 0 1px 0 rgba(255, 255, 255, 0.02),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.01),
-    inset 0 0 20px 4px rgba(0, 0, 0, 0.5);
-  position: relative;
-  overflow: hidden;
-}
-.glass::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.02),
-    transparent
-  );
-}
-.glass::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1px;
-  height: 100%;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.3);
-  pointer-events: none;
+  background: #7979794d;
+  backdrop-filter: blur(5px);
+  border-radius: var(--radius);
+  border: 1px solid #ffffff2e;
+  color: #fff;
 }
 .tourney-font {
   font-family: "Tourney";
@@ -180,4 +162,10 @@ a {
   align-items: flex-start;
   justify-content: space-between;
   width: 100%;
+}
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
 }

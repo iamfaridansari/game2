@@ -46,6 +46,21 @@ document.addEventListener("DOMContentLoaded", () => {
           if (window.innerWidth <= 576) {
             document.getElementById("app-bar").classList.remove("active");
           }
+          //
+          const winnerStageCB = document.getElementById("winner-stage");
+          const winnersCB = winnerStageCB.querySelectorAll(
+            ".winner-card-wrapper"
+          );
+          winnersCB.forEach((winner, index) => {
+            winnerStageCB.style.flexDirection = "unset";
+            if (index === 0) {
+              winner.classList.toggle("order-2");
+            } else if (index === 1) {
+              winner.classList.toggle("order-1");
+            } else if (index === 2) {
+              winner.classList.toggle("order-3");
+            }
+          });
         });
       });
     });

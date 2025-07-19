@@ -211,7 +211,6 @@ a video {
   width: calc(100% - 16px);
   max-width: 300px;
   padding: 16px;
-  background: #1d1d20;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -221,7 +220,6 @@ a video {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: var(--radius);
   z-index: 2;
 }
 .offline-badge {
@@ -258,8 +256,9 @@ a video {
 .gamedom-box {
   border: 2px solid var(--green);
   padding: 40px 16px 16px;
-  border-radius: var(--radius);
   text-align: center;
+  z-index: -1;
+  position: relative;
 }
 .gamedom-box h2 {
   text-transform: uppercase;
@@ -278,14 +277,12 @@ a video {
   font-weight: bold;
 }
 .copy-code {
-  background: #fff;
-  border-radius: var(--radius);
   margin: 8px 0;
-  color: #000;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
+  cursor: pointer;
 }
 .claim-bonus-button {
   background: var(--green);

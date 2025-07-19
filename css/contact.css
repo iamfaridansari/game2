@@ -16,9 +16,7 @@
 }
 .contact-left-box {
   padding: 16px;
-  background: #262628;
   margin-top: 16px;
-  border-radius: var(--radius);
 }
 .contact-left-box a {
   color: var(--discord);
