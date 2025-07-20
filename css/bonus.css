@@ -4,16 +4,16 @@
   margin-bottom: 16px;
 }
 .top-bonus {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-auto-rows: 200px;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   gap: 16px;
 }
 .top-bonus .top-bonus-card {
   width: 100%;
-  max-width: 280px;
-  height: 200px;
+  height: 100%;
   border-radius: var(--radius);
   display: flex;
   flex-direction: column;
