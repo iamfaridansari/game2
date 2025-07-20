@@ -2,56 +2,73 @@
   {
     "image": "../images/bonus/empire_logo.svg",
     "title": "3 FREE CASES",
-    "subtitle": "+ DEPOSIT BONUS"
+    "subtitle": "+ DEPOSIT BONUS",
+    "color": "yellow"
   },
   {
     "image": "../images/bonus/gamdom_logo.svg",
     "title": "Get 50 Coins",
-    "subtitle": "Just Sign Up"
+    "subtitle": "Just Sign Up",
+    "color": "green"
   },
   {
     "image": "../images/bonus/packdraw_logo.png",
     "title": "Lucky Spin",
-    "subtitle": "Daily Free Spins"
+    "subtitle": "Daily Free Spins",
+    "color": "purple"
   },
   {
     "image": "../images/bonus/500_casino.svg",
     "title": "Unlock Vault",
-    "subtitle": "Earn Hidden Prizes"
+    "subtitle": "Earn Hidden Prizes",
+    "color": "red"
   },
   {
     "image": "../images/bonus/roobet.svg",
     "title": "Bonus Arena",
-    "subtitle": "Win Every Hour"
+    "subtitle": "Win Every Hour",
+    "color": "yellow"
   },
   {
     "image": "../images/bonus/stake.svg",
     "title": "Mystery Case",
-    "subtitle": "Free Daily Try"
+    "subtitle": "Free Daily Try",
+    "color": "green"
   },
   {
     "image": "../images/bonus/upgrader.svg",
     "title": "Wheel of Fortune",
-    "subtitle": "Spin & Win Big"
+    "subtitle": "Spin & Win Big",
+    "color": "purple"
   },
   {
     "image": "../images/bonus/shuffle.svg",
     "title": "XP Boost",
-    "subtitle": "+200% XP Weekend"
+    "subtitle": "+200% XP Weekend",
+    "color": "discord"
+  },
+  {
+    "image": "../images/bonus",
+    "title": "Battle Arena",
+    "subtitle": "Earn Bonus Points",
+    "color": "yellow"
   },
   {
     "image": "../images/bonus/csgobig.png",
-    "title": "Battle Arena",
-    "subtitle": "Earn Bonus Points"
+    "title": "Claim Gift",
+    "subtitle": "Exclusive Promo Code",
+    "color": "yellow"
   },
   {
-    "image": "../images/bonus/raingg.svg",
-    "title": "Claim Gift",
-    "subtitle": "Exclusive Promo Code"
+    "image": "/images/bonus/raingg.svg",
+    "title": "Cash Drop",
+    "subtitle": "Win Real Money",
+    "color": "purple"
   },
   {
     "image": "../images/bonus/empiredrop.svg",
-    "title": "Cash Drop",
-    "subtitle": "Win Real Money"
+    "title": "Daily Reward",
+    "subtitle": "Free Bonus Every Day",
+    "color": "discord"
   }
 ]

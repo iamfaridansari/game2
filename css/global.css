@@ -37,10 +37,10 @@ body {
   --green: #3bff97;
   --red: #fe4554;
   --grey: #fff3;
-  --transition: 0.5s all ease-in-out;
-  --radius: 8px;
   --discord: #6779fa;
   --purple: #aa1ec9;
+  --transition: 0.5s all ease-in-out;
+  --radius: 8px;
 }
 img {
   width: 100%;
@@ -63,6 +63,18 @@ img {
 .green-button {
   background: var(--green);
   color: #000;
+}
+.red-button {
+  background: var(--red);
+  color: #fff;
+}
+.discord-button {
+  background: var(--discord);
+  color: #fff;
+}
+.purple-button {
+  background: var(--purple);
+  color: #fff;
 }
 .white-button {
   color: #fff;
@@ -127,6 +139,12 @@ td {
 }
 .red-text {
   color: var(--red);
+}
+.purple-text {
+  color: var(--purple);
+}
+.discord-text {
+  color: var(--discord);
 }
 a {
   text-decoration: none;

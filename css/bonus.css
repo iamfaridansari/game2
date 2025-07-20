@@ -34,39 +34,10 @@
 }
 .top-bonus .top-bonus-card img {
   width: 150px;
-  max-height: 50px;
+  max-height: 30px;
   margin: 0 auto;
+  object-fit: contain;
 }
 .top-bonus h2 {
   font-family: "Tourney";
-}
-/*  */
-.top-bonus .top-bonus-card:nth-child(1) {
-  border: 1px solid var(--yellow);
-}
-.top-bonus .top-bonus-card:nth-child(1) h2 {
-  color: var(--yellow);
-}
-.top-bonus .top-bonus-card:nth-child(1) .button:nth-child(2) {
-  background: var(--yellow);
-}
-/*  */
-.top-bonus .top-bonus-card:nth-child(2) {
-  border: 1px solid var(--green);
-}
-.top-bonus .top-bonus-card:nth-child(2) h2 {
-  color: var(--green);
-}
-.top-bonus .top-bonus-card:nth-child(2) .button:nth-child(2) {
-  background: var(--green);
-}
-/*  */
-.top-bonus .top-bonus-card:nth-child(3) {
-  border: 1px solid var(--purple);
-}
-.top-bonus .top-bonus-card:nth-child(3) h2 {
-  color: var(--purple);
-}
-.top-bonus .top-bonus-card:nth-child(3) .button:nth-child(2) {
-  background: var(--purple);
 }
