@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <h3>${winner.name}</h3>
               <div class="my-2">
                 <p class="text-secondary">Ticket No</p>
-                <p>${winner.ticket}</p>
+                <p>#${winner.ticket}</p>
               </div>
               <div class="my-2">
                 <p class="text-secondary">Reward</p>
@@ -67,36 +67,62 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       //
-      window.addEventListener("resize", () => {
-        const winnerStage = document.getElementById("winner-stage");
-        const winners = winnerStage.querySelectorAll(".winner-card-wrapper");
-        if (winnerStage.clientWidth <= 500) {
-          winnerStage.style.flexDirection = "column";
-          winners.forEach((winner, index) => {
+      const resizeObserver = new ResizeObserver((entries) => {
+        for (let entry of entries) {
+          const width = entry.contentRect.width;
+          handleWinnerStageResize(width);
+        }
+      });
+      resizeObserver.observe(winnerStage);
+      function handleWinnerStageResize(width) {
+        const winnerCards = document.querySelectorAll(".winner-card-wrapper");
+        if (width <= 500) {
+          winnerCards.forEach((item, index) => {
             if (index === 0) {
-              winner.classList.remove("order-2");
+              item.classList.remove("order-2");
             } else if (index === 1) {
-              winner.classList.remove("order-1");
-              winner.style.transform = `translateY(0)`;
+              item.classList.remove("order-1");
+              item.style.transform = `translateY(0)`;
             } else if (index === 2) {
-              winner.classList.remove("order-3");
-              winner.style.transform = `translateY(0)`;
+              item.classList.remove("order-3");
+              item.style.transform = `translateY(0)`;
             }
           });
-        } else {
-          winners.forEach((winner, index) => {
-            winnerStage.style.flexDirection = "unset";
+        } else if (width >= 500) {
+          winnerCards.forEach((item, index) => {
             if (index === 0) {
-              winner.classList.add("order-2");
+              item.classList.add("order-2");
             } else if (index === 1) {
-              winner.classList.add("order-1");
-              winner.style.transform = `translateY(40px)`;
+              item.classList.add("order-1");
+              item.style.transform = `translateY(40px)`;
             } else if (index === 2) {
-              winner.classList.add("order-3");
-              winner.style.transform = `translateY(40px)`;
+              item.classList.add("order-3");
+              item.style.transform = `translateY(40px)`;
             }
           });
         }
+      }
+
+      //
+      const remaining = data.slice(3, data.length);
+      remaining.forEach((item, index) => {
+        const el = document.createElement("div");
+        el.classList.add("winner-table-body");
+        el.innerHTML = `
+            <div class="glass">
+                <p>${index + 3}</p>
+            </div>
+            <div class="glass">
+                <p>${item.name}</p>
+            </div>
+            <div class="glass">
+                <p>$${item.reward}</p>
+            </div>
+            <div class="glass">
+                <p>#${item.ticket}</p>
+            </div>
+        `;
+        document.getElementById("winner-table-body").appendChild(el);
       });
     });
 });

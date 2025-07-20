@@ -110,7 +110,9 @@ li,
 label,
 input,
 button,
-textarea {
+textarea,
+th,
+td {
   font-size: 14px !important;
   color: #fff;
   font-family: "Inter";

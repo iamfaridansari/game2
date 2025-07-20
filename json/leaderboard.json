@@ -2,141 +2,121 @@
   {
     "image": "./images/profile-picture.avif",
     "name": "Farid Ansari",
-    "ticket": "#123",
-    "reward": "100",
-    "color": "#fac42d"
+    "ticket": "123",
+    "reward": "100"
   },
   {
     "image": "./images/profile-picture.avif",
-    "name": "Zoya Shaikh",
-    "ticket": "#234",
-    "reward": "80",
-    "color": "#3bff97"
+    "name": "Rahim Khan",
+    "ticket": "234",
+    "reward": "80"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Anam Siddique",
-    "ticket": "#345",
-    "reward": "60",
-    "color": "#fe4554"
+    "ticket": "345",
+    "reward": "60"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Naseem Fatima",
-    "ticket": "#456",
-    "reward": "50",
-    "color": "#ffffff"
+    "ticket": "456",
+    "reward": "50"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Imran Pathan",
-    "ticket": "#567",
-    "reward": "45",
-    "color": "#ffffff"
+    "ticket": "567",
+    "reward": "45"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Sana Mir",
-    "ticket": "#678",
-    "reward": "40",
-    "color": "#ffffff"
+    "ticket": "678",
+    "reward": "40"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Ahmed Raza",
-    "ticket": "#789",
-    "reward": "35",
-    "color": "#ffffff"
+    "ticket": "789",
+    "reward": "35"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Lubna Shaikh",
-    "ticket": "#890",
-    "reward": "30",
-    "color": "#ffffff"
+    "ticket": "890",
+    "reward": "30"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Tariq Mansoor",
-    "ticket": "#901",
-    "reward": "28",
-    "color": "#ffffff"
+    "ticket": "901",
+    "reward": "28"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Zainab Ali",
-    "ticket": "#101",
-    "reward": "25",
-    "color": "#ffffff"
+    "ticket": "101",
+    "reward": "25"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Bilal Khan",
-    "ticket": "#112",
-    "reward": "23",
-    "color": "#ffffff"
+    "ticket": "112",
+    "reward": "23"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Nadia Rahman",
-    "ticket": "#131",
-    "reward": "22",
-    "color": "#ffffff"
+    "ticket": "131",
+    "reward": "22"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Yusuf Ansari",
-    "ticket": "#415",
-    "reward": "21",
-    "color": "#ffffff"
+    "ticket": "415",
+    "reward": "21"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Sara Iqbal",
-    "ticket": "#617",
-    "reward": "20",
-    "color": "#ffffff"
+    "ticket": "617",
+    "reward": "20"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Kashif Mehmood",
-    "ticket": "#718",
-    "reward": "18",
-    "color": "#ffffff"
+    "ticket": "718",
+    "reward": "18"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Ayaz Rizvi",
-    "ticket": "#819",
-    "reward": "16",
-    "color": "#ffffff"
+    "ticket": "819",
+    "reward": "16"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Mohsin Ali",
-    "ticket": "#920",
-    "reward": "15",
-    "color": "#ffffff"
+    "ticket": "920",
+    "reward": "15"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Fatima Sheikh",
-    "ticket": "#111",
-    "reward": "14",
-    "color": "#ffffff"
+    "ticket": "111",
+    "reward": "14"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Aadil Khan",
-    "ticket": "#222",
-    "reward": "13",
-    "color": "#ffffff"
+    "ticket": "222",
+    "reward": "13"
   },
   {
     "image": "./images/profile-picture.avif",
     "name": "Hina Javed",
-    "ticket": "#333",
-    "reward": "12",
-    "color": "#ffffff"
+    "ticket": "333",
+    "reward": "12"
   }
 ]

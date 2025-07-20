@@ -96,3 +96,72 @@
 .winner-stage .winner-card-wrapper:nth-child(3) h3 {
   color: var(--red);
 }
+.winner-table-head,
+.winner-table-body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.winner-table-head > div {
+  display: flex;
+  align-items: start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.winner-table-head i {
+  color: var(--green);
+}
+.winner-table-head p {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.winner-table-body {
+  margin-bottom: 8px;
+}
+.winner-table-body > div {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  border-radius: 0;
+  border-left: unset;
+  border-right: unset;
+}
+.winner-table-body > div:first-child {
+  padding-left: 8px;
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+}
+.winner-table-body > div:last-child {
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+.winner-table-body > div:first-child p {
+  width: 50px;
+  height: 25px;
+  border: 1px solid var(--red);
+  border-radius: var(--radius);
+  display: grid;
+  place-items: center;
+  background: #de4c585f;
+}
+.winner-table-body > div:nth-child(1),
+.winner-table-head > div:nth-child(1) {
+  min-width: 100px;
+  max-width: 100px;
+}
+.winner-table-body > div:nth-child(2),
+.winner-table-head > div:nth-child(2) {
+  min-width: 300px;
+  max-width: 300px;
+}
+.winner-table-body > div:nth-child(3),
+.winner-table-body > div:nth-child(4),
+.winner-table-head > div:nth-child(3),
+.winner-table-head > div:nth-child(4) {
+  min-width: 200px;
+  max-width: 200px;
+}

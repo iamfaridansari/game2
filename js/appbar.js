@@ -19,22 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
               .querySelector(".chat-bar-button i")
               .classList.add("fa-message");
           }
-
-          //
-          const winnerStageAB = document.getElementById("winner-stage");
-          const winnersAB = winnerStageAB.querySelectorAll(
-            ".winner-card-wrapper"
-          );
-          winnersAB.forEach((winner, index) => {
-            winnerStageAB.style.flexDirection = "unset";
-            if (index === 0) {
-              winner.classList.toggle("order-2");
-            } else if (index === 1) {
-              winner.classList.toggle("order-1");
-            } else if (index === 2) {
-              winner.classList.toggle("order-3");
-            }
-          });
         });
       });
 
