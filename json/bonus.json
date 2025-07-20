@@ -48,12 +48,6 @@
     "color": "discord"
   },
   {
-    "image": "../images/bonus",
-    "title": "Battle Arena",
-    "subtitle": "Earn Bonus Points",
-    "color": "yellow"
-  },
-  {
     "image": "../images/bonus/csgobig.png",
     "title": "Claim Gift",
     "subtitle": "Exclusive Promo Code",

@@ -150,6 +150,7 @@ a {
   text-decoration: none;
 }
 .center-div {
+  max-width: 1200px;
   flex-grow: 1;
   min-width: 0;
   overflow: hidden;
