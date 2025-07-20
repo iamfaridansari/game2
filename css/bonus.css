@@ -1,0 +1,72 @@
+.bonus-banner {
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.top-bonus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.top-bonus .top-bonus-card {
+  width: 100%;
+  max-width: 280px;
+  height: 200px;
+  border-radius: var(--radius);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  text-align: center;
+  background: linear-gradient(#7979794d, #7979794d),
+    url(../images/bonus/bonus-bg.svg);
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid #ffffff2e;
+  color: #fff;
+}
+.top-bonus .top-bonus-card .button {
+  padding: 4px 6px;
+}
+.top-bonus .top-bonus-card img {
+  width: 150px;
+  max-height: 50px;
+  margin: 0 auto;
+}
+.top-bonus h2 {
+  font-family: "Tourney";
+}
+/*  */
+.top-bonus .top-bonus-card:nth-child(1) {
+  border: 1px solid var(--yellow);
+}
+.top-bonus .top-bonus-card:nth-child(1) h2 {
+  color: var(--yellow);
+}
+.top-bonus .top-bonus-card:nth-child(1) .button:nth-child(2) {
+  background: var(--yellow);
+}
+/*  */
+.top-bonus .top-bonus-card:nth-child(2) {
+  border: 1px solid var(--green);
+}
+.top-bonus .top-bonus-card:nth-child(2) h2 {
+  color: var(--green);
+}
+.top-bonus .top-bonus-card:nth-child(2) .button:nth-child(2) {
+  background: var(--green);
+}
+/*  */
+.top-bonus .top-bonus-card:nth-child(3) {
+  border: 1px solid var(--purple);
+}
+.top-bonus .top-bonus-card:nth-child(3) h2 {
+  color: var(--purple);
+}
+.top-bonus .top-bonus-card:nth-child(3) .button:nth-child(2) {
+  background: var(--purple);
+}
