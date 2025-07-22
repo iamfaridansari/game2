@@ -263,7 +263,6 @@ a video {
 .gamedom-box h2 {
   text-transform: uppercase;
   font-weight: bold;
-  font-family: "Golos";
 }
 .gamedom-box h2:nth-child(1) {
   color: var(--green);

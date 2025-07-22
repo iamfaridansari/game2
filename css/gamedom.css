@@ -1,0 +1,79 @@
+.gamedom-banner {
+  text-align: center;
+  padding: 48px 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.big-percent {
+  font-size: 100px;
+  font-family: "Golos";
+  color: var(--green);
+}
+.gamedom-floating-down-arrow {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: grid;
+  place-items: center;
+  margin: 24px auto 0;
+  color: #fff;
+  animation: gamedomArrow 1s infinite alternate-reverse;
+}
+.titan-title-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titan-title {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+.titan-title i {
+  font-size: 50px;
+  opacity: 0.25;
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.titan-desc {
+  width: 200px;
+  height: 100px;
+  display: grid;
+  place-items: center;
+  text-transform: uppercase;
+  padding-left: 16px;
+  border-left: 1px solid var(--grey);
+}
+.gamedom-cards-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  row-gap: 16px;
+}
+.gamedom-card {
+  width: 250px;
+  height: 200px;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.gamedom-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@keyframes gamedomArrow {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
