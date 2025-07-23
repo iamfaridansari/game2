@@ -69,6 +69,25 @@
   height: 100%;
   object-fit: contain;
 }
+.gamedom-parallel-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.gamedom-parallel-flex > div {
+  max-width: 400px;
+  min-width: 300px;
+  text-align: center;
+}
+.gamedom-parallel-flex > div img {
+  max-width: 250px;
+  margin: 0 auto;
+}
+.gamedom-parallel-wrapper .gamedom-parallel-flex:nth-child(even) {
+  flex-direction: row-reverse;
+}
 @keyframes gamedomArrow {
   from {
     transform: translateY(0);
