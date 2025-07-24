@@ -83,6 +83,10 @@ img {
   background: #fff;
   color: #000;
 }
+.grey-button {
+  background: #232427;
+  color: #fff;
+}
 .input {
   outline: none;
   border: none;
