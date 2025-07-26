@@ -3,6 +3,7 @@
   padding: 48px 0;
   max-width: 600px;
   margin: 0 auto;
+  position: relative;
 }
 .big-percent {
   font-size: 100px;
@@ -94,5 +95,70 @@
   }
   to {
     transform: translateY(10px);
+  }
+}
+.candy {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+  opacity: 0.5;
+  z-index: -1;
+}
+.candy1 {
+  top: 0;
+  left: 0;
+  animation: candy1 2s alternate-reverse infinite;
+}
+@keyframes candy1 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(50%);
+  }
+}
+.candy2 {
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  animation: candy2 2s alternate-reverse infinite;
+}
+.candy3 {
+  bottom: 0;
+  left: 0;
+  animation: candy1 2s alternate-reverse infinite;
+}
+.candy4 {
+  top: 0;
+  right: 0;
+  animation: candy1 2s alternate-reverse infinite;
+}
+.candy5 {
+  top: 50%;
+  right: 0;
+  transform: translate(100%, -50%);
+  animation: candy5 2s alternate-reverse infinite;
+}
+.candy6 {
+  bottom: 0;
+  right: 0;
+  animation: candy1 2s alternate-reverse infinite;
+}
+@keyframes candy2 {
+  from {
+    transform: translate(-100%, -50%);
+  }
+  to {
+    transform: translate(-100%, 0);
+  }
+}
+@keyframes candy5 {
+  from {
+    transform: translate(100%, -50%);
+  }
+  to {
+    transform: translate(100%, 0);
   }
 }
