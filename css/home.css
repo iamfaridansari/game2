@@ -181,6 +181,79 @@ a video {
 .live-stream-title p {
   text-transform: uppercase;
 }
+.live-stream-title .emoji {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+  z-index: -1;
+  opacity: 0.5;
+}
+.live-stream-title .emoji1 {
+  top: 0;
+  left: 0;
+  animation: emoji1 2s alternate-reverse infinite;
+}
+@keyframes emoji1 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+.live-stream-title .emoji2 {
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  animation: emoji2 2s alternate-reverse infinite;
+}
+@keyframes emoji2 {
+  from {
+    transform: translate(-100%, -50%);
+  }
+  to {
+    transform: translate(-100%, -100%);
+  }
+}
+.live-stream-title .emoji3 {
+  bottom: 0;
+  left: 0;
+  animation: emoji3 2s alternate-reverse infinite;
+}
+@keyframes emoji3 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+.live-stream-title .emoji4 {
+  top: 0;
+  right: 0;
+  animation: emoji1 2s alternate-reverse infinite;
+}
+.live-stream-title .emoji5 {
+  top: 50%;
+  right: 0;
+  transform: translate(100%, -50%);
+  animation: emoji5 2s alternate-reverse infinite;
+}
+@keyframes emoji5 {
+  from {
+    transform: translate(100%, -50%);
+  }
+  to {
+    transform: translate(100%, -100%);
+  }
+}
+.live-stream-title .emoji6 {
+  bottom: 0;
+  right: 0;
+  animation: emoji3 2s alternate-reverse infinite;
+}
 .live-stream-body {
   width: 100%;
   height: 400px;
@@ -327,6 +400,7 @@ a video {
 .home-accordion-wrapper.active .home-accordion-head .accordion-arrow {
   transform: rotate(180deg);
 }
+
 /*  */
 @media screen and (max-width: 1200px) {
   .golden-grid {
