@@ -47,11 +47,6 @@
   border-radius: var(--radius);
   max-height: 60px;
 }
-.live-wins-carousel-item p {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 .golden-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

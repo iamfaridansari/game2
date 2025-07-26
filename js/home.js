@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
         el.classList.add("live-wins-carousel-item");
         el.innerHTML = `
           <img src=${item.image} alt="" />
-              <p>${item.name}</p>
+              <p class="text-clamp">${item.name}</p>
               <p class="yellow-text dollar-para">
                 <i class="fa-solid fa-sack-dollar"></i>${item.price}
               </p>

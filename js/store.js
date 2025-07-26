@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
               <img src="${item.image}" alt="" />
             </div>
             <div class="glass p-2">
-              <p>${item.title}</p>
-              <p class="text-secondary">${item.description}</p>
+              <p class="text-clamp">${item.title}</p>
+              <p class="text-secondary text-clamp">${item.description}</p>
               <div
                 class="d-flex align-items-center justify-content-between mt-2"
               >
