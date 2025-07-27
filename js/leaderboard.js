@@ -108,6 +108,8 @@ document.addEventListener("DOMContentLoaded", () => {
       remaining.forEach((item, index) => {
         const el = document.createElement("div");
         el.classList.add("winner-table-body");
+        el.setAttribute("data-aos", "zoom-up");
+        el.setAttribute("data-aos-duration", "3000");
         el.innerHTML = `
             <div class="glass">
                 <p>${index + 3}</p>

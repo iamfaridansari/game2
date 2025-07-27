@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
       data.slice(0, 3).forEach((item) => {
         const el = document.createElement("div");
         el.classList.add("top-bonus-card", "glass");
+        el.setAttribute("data-aos", "zoom-in");
+        el.setAttribute("data-aos-duration", "2000");
         el.style.border = `1px solid var(--${item.color})`;
         el.innerHTML = `
         <img src="${item.image}" alt="" />
@@ -28,6 +30,8 @@ document.addEventListener("DOMContentLoaded", () => {
       data.slice(3, data.length).forEach((item) => {
         const el = document.createElement("div");
         el.classList.add("top-bonus-card", "glass");
+        el.setAttribute("data-aos", "zoom-in");
+        el.setAttribute("data-aos-duration", "2000");
         el.style.border = `1px solid var(--${item.color})`;
         el.innerHTML = `
         <img src="${item.image}" alt="" />

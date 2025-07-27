@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="./css/chatbar.css" />
     <link rel="stylesheet" href="./css/appbar.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <!--  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <section id="navbar"></section>
@@ -76,7 +78,11 @@
           </div>
         </div>
         <!--  -->
-        <div class="line-stream-wrapper">
+        <div
+          class="line-stream-wrapper"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
           <div class="live-stream-title">
             <h1>K</h1>
             <h2 class="mb-1">live stream</h2>
@@ -127,7 +133,11 @@
         </div>
 
         <!--  -->
-        <div class="gamedom-box-wrapper">
+        <div
+          class="gamedom-box-wrapper"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
           <div class="gamedom-logo-shift">
             <h2>
               <i class="fa-solid fa-chess-rook"></i>
@@ -177,5 +187,10 @@
     <script src="./js/chatbar.js" defer></script>
     <script src="./js/home.js"></script>
     <script src="./js/footer.js"></script>
+    <!--  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -75,6 +75,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const el = document.createElement("a");
         el.href = item.link;
         el.classList.add("originals-item");
+        el.setAttribute("data-aos", "fade-right");
+        el.setAttribute("data-aos-duration", "2000");
         el.style.border = `2px solid ${item.color}`;
         el.innerHTML = `
         <img src="${item.image}" alt="" />
@@ -88,6 +90,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const el = document.createElement("a");
         el.href = item.link;
         el.classList.add("latest-contest-item");
+        el.setAttribute("data-aos", "fade-right");
+        el.setAttribute("data-aos-duration", "2000");
         el.innerHTML = `
           <img src="${item.image}" alt="" />
                 <p class="fw-bold">${item.title}</p>

@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const el = document.createElement("a");
         el.href = card.link;
         el.classList.add("promotion-card");
+        el.setAttribute("data-aos", "zoom-in");
+        el.setAttribute("data-aos-duration", "2000");
 
         const tagsContainer = document.createElement("div");
         tagsContainer.classList.add("promotions-tags-div");

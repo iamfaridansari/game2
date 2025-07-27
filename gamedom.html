@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="./css/appbar.css" />
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/gamedom.css" />
+    <!--  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <section id="navbar"></section>
@@ -39,7 +41,9 @@
             <i class="fa-solid fa-chess-rook green-text"></i>
             Gamedom
           </h2>
-          <h1 class="big-percent">+15%</h1>
+          <h1 class="big-percent" data-aos="zoom-in" data-aos-duration="2000">
+            +15%
+          </h1>
           <div
             class="d-flex align-items-center justify-content-center gap-4 flex-wrap mb-4"
           >
@@ -81,13 +85,25 @@
           </div>
 
           <div class="gamedom-cards-flex">
-            <div class="gamedom-card">
+            <div
+              class="gamedom-card"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <img src="./images/gamedom/box1.png" alt="" />
             </div>
-            <div class="gamedom-card">
+            <div
+              class="gamedom-card"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+            >
               <img src="./images/gamedom/box2.png" alt="" />
             </div>
-            <div class="gamedom-card">
+            <div
+              class="gamedom-card"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
               <img src="./images/gamedom/box3.png" alt="" />
             </div>
           </div>
@@ -105,10 +121,18 @@
           </div>
 
           <div class="gamedom-cards-flex">
-            <div class="gamedom-card">
+            <div
+              class="gamedom-card"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <img src="./images/gamedom/box4.png" alt="" />
             </div>
-            <div class="gamedom-card">
+            <div
+              class="gamedom-card"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
               <img src="./images/gamedom/box5.png" alt="" />
             </div>
           </div>
@@ -126,13 +150,25 @@
           </div>
 
           <div class="gamedom-cards-flex">
-            <div class="gamedom-card">
+            <div
+              class="gamedom-card"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
               <img src="./images/gamedom/box6.png" alt="" />
             </div>
-            <div class="gamedom-card">
+            <div
+              class="gamedom-card"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+            >
               <img src="./images/gamedom/box7.png" alt="" />
             </div>
-            <div class="gamedom-card">
+            <div
+              class="gamedom-card"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
               <img src="./images/gamedom/box8.png" alt="" />
             </div>
           </div>
@@ -157,7 +193,7 @@
         </div>
 
         <div class="mt-5">
-          <div class="text-center">
+          <div class="text-center" data-aos="zoom-in" data-aos-duration="2000">
             <h2>DISCOVER MORE <span class="green-text">REWARDS</span></h2>
             <p class="text-secondary">
               Not satisfied? Discover even more VIP rewards that Gamdom has to
@@ -173,6 +209,8 @@
           <div
             class="glass d-flex align-items-center justify-content-between flex-wrap p-3 row-gap-2"
             style="max-width: 600px; margin: 24px auto"
+            data-aos="fade-down"
+            data-aos-duration="2000"
           >
             <div style="max-width: 370px">
               <p class="discord-text fw-bold">Looking For More?</p>
@@ -195,11 +233,15 @@
               src="./images/gamedom/box12.png"
               alt=""
               style="width: 300px; height: 200px; object-fit: contain"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
             />
             <img
               src="./images/gamedom/box13.png"
               alt=""
               style="width: 300px; height: 200px; object-fit: contain"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
             />
           </div>
         </div>
@@ -220,5 +262,10 @@
     <script src="./js/chatbar.js" defer></script>
     <script src="./js/footer.js"></script>
     <script src="./js/gamedom.js"></script>
+    <!--  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

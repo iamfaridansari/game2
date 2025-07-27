@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="./css/appbar.css" />
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/promotions.css" />
+    <!--  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <section id="navbar"></section>
@@ -34,7 +36,12 @@
       <section id="app-bar-section"></section>
 
       <section class="center-div" id="center-div">
-        <ul class="promotions-tabs" id="promotions-tabs"></ul>
+        <ul
+          class="promotions-tabs"
+          id="promotions-tabs"
+          data-aos="fade-down"
+          data-aos-duration="2000"
+        ></ul>
 
         <div class="promotions-grid mt-4" id="promotions-grid">
           <a href="#" class="promotion-card">
@@ -70,5 +77,10 @@
     <script src="./js/chatbar.js" defer></script>
     <script src="./js/footer.js"></script>
     <script src="./js/promotions.js"></script>
+    <!--  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
