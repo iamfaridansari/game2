@@ -27,5 +27,15 @@ document.addEventListener("DOMContentLoaded", () => {
       rewards.addEventListener("click", () => {
         rewards.classList.toggle("hide");
       });
+      //
+      const currentPath = window.location.pathname.split("/").pop(); // e.g. "gamedom.html"
+      const appBarLinks = document.querySelectorAll(".app-bar-link");
+
+      appBarLinks.forEach((link) => {
+        const linkHref = link.getAttribute("href");
+        if (linkHref && linkHref.includes(currentPath)) {
+          link.classList.add("active");
+        }
+      });
     });
 });
