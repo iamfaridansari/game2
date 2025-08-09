@@ -90,8 +90,9 @@
 .blackjack-original-tab {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
   gap: 8px;
+  flex-wrap: wrap;
 }
 .blackjack-original-tab .button {
   border: 1px solid var(--grey);
