@@ -50,5 +50,168 @@
       "multiplier": "2.90x",
       "win": 7975
     }
+  ],
+  "bets": [
+    {
+      "game": "Dice",
+      "player": "Alice",
+      "time": "01:15:22 PM",
+      "bet": 120,
+      "multiplier": 1.2,
+      "win": 144
+    },
+    {
+      "game": "Roulette",
+      "player": "Bob",
+      "time": "02:44:10 PM",
+      "bet": 200,
+      "multiplier": 1.5,
+      "win": 300
+    },
+    {
+      "game": "Blackjack",
+      "player": "Charlie",
+      "time": "03:59:45 PM",
+      "bet": 150,
+      "multiplier": 1.3,
+      "win": 195
+    },
+    {
+      "game": "Dice",
+      "player": "David",
+      "time": "04:21:05 PM",
+      "bet": 180,
+      "multiplier": 1.4,
+      "win": 252
+    },
+    {
+      "game": "Roulette",
+      "player": "Eva",
+      "time": "05:37:18 PM",
+      "bet": 220,
+      "multiplier": 1.6,
+      "win": 352
+    },
+    {
+      "game": "Blackjack",
+      "player": "Frank",
+      "time": "06:48:33 PM",
+      "bet": 300,
+      "multiplier": 1.8,
+      "win": 540
+    },
+    {
+      "game": "Dice",
+      "player": "Grace",
+      "time": "07:29:50 PM",
+      "bet": 250,
+      "multiplier": 1.7,
+      "win": 425
+    },
+    {
+      "game": "Roulette",
+      "player": "Helen",
+      "time": "08:12:04 PM",
+      "bet": 270,
+      "multiplier": 1.5,
+      "win": 405
+    },
+    {
+      "game": "Blackjack",
+      "player": "Ian",
+      "time": "09:54:11 PM",
+      "bet": 190,
+      "multiplier": 1.9,
+      "win": 361
+    },
+    {
+      "game": "Dice",
+      "player": "Jack",
+      "time": "10:41:25 PM",
+      "bet": 160,
+      "multiplier": 1.4,
+      "win": 224
+    },
+
+    {
+      "game": "Roulette",
+      "player": "Kevin",
+      "time": "11:15:42 AM",
+      "bet": 1500,
+      "multiplier": 2.5,
+      "win": 3750
+    },
+    {
+      "game": "Blackjack",
+      "player": "Laura",
+      "time": "12:33:57 PM",
+      "bet": 2000,
+      "multiplier": 3.2,
+      "win": 6400
+    },
+    {
+      "game": "Dice",
+      "player": "Mike",
+      "time": "01:45:10 PM",
+      "bet": 2500,
+      "multiplier": 2.8,
+      "win": 7000
+    },
+    {
+      "game": "Roulette",
+      "player": "Nina",
+      "time": "02:51:24 PM",
+      "bet": 3000,
+      "multiplier": 3.5,
+      "win": 10500
+    },
+    {
+      "game": "Blackjack",
+      "player": "Oscar",
+      "time": "03:22:48 PM",
+      "bet": 2800,
+      "multiplier": 3.0,
+      "win": 8400
+    },
+    {
+      "game": "Dice",
+      "player": "Paul",
+      "time": "04:44:05 PM",
+      "bet": 3500,
+      "multiplier": 2.6,
+      "win": 9100
+    },
+    {
+      "game": "Roulette",
+      "player": "Quinn",
+      "time": "05:59:39 PM",
+      "bet": 4000,
+      "multiplier": 3.8,
+      "win": 15200
+    },
+    {
+      "game": "Blackjack",
+      "player": "Rose",
+      "time": "06:17:55 PM",
+      "bet": 4500,
+      "multiplier": 3.1,
+      "win": 13950
+    },
+    {
+      "game": "Dice",
+      "player": "Sam",
+      "time": "07:36:20 PM",
+      "bet": 5000,
+      "multiplier": 2.9,
+      "win": 14500
+    },
+    {
+      "game": "Roulette",
+      "player": "Tina",
+      "time": "08:58:44 PM",
+      "bet": 5500,
+      "multiplier": 3.4,
+      "win": 18700
+    }
   ]
 }

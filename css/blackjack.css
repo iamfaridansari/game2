@@ -98,7 +98,9 @@
   border: 1px solid var(--grey);
 }
 .big-wins-head,
-.big-wins-body {
+.big-wins-body,
+.bets-head,
+.bets-body {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -132,4 +134,41 @@
 }
 #big-wins-body .big-wins-body:nth-child(2) {
   background-color: #262629;
+}
+.bets {
+  background-color: #1d1d20;
+  margin-top: 16px;
+  border-radius: var(--radius);
+  padding: 8px;
+}
+.bets-tab {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.bets-tab .button {
+  border: 1px solid var(--grey);
+}
+.bets-head > div:nth-child(1),
+.bets-body > div:nth-child(1) {
+  min-width: 150px;
+  max-width: 150px;
+}
+.bets-head > div:nth-child(2),
+.bets-body > div:nth-child(2) {
+  min-width: 200px;
+  max-width: 200px;
+}
+.bets-head > div:nth-child(3),
+.bets-head > div:nth-child(4),
+.bets-head > div:nth-child(5),
+.bets-head > div:nth-child(6),
+.bets-body > div:nth-child(3),
+.bets-body > div:nth-child(4),
+.bets-body > div:nth-child(5),
+.bets-body > div:nth-child(6) {
+  min-width: 150px;
+  max-width: 150px;
 }
