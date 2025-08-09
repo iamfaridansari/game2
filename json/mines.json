@@ -1,0 +1,217 @@
+{
+  "bigWins": [
+    {
+      "rank": "../images/rank/1st.png",
+      "name": "mason",
+      "date": "03 February 2024",
+      "bet": 3800,
+      "multiplier": 2.5,
+      "win": 9500
+    },
+    {
+      "rank": "../images/rank/2nd.png",
+      "name": "aria",
+      "date": "16 May 2024",
+      "bet": 2900,
+      "multiplier": 3.2,
+      "win": 9280
+    },
+    {
+      "rank": "../images/rank/3rd.png",
+      "name": "caleb",
+      "date": "22 July 2024",
+      "bet": 2100,
+      "multiplier": 4,
+      "win": 8400
+    }
+  ],
+  "luckyWins": [
+    {
+      "rank": "../images/rank/1st.png",
+      "name": "hazel",
+      "date": "11 January 2024",
+      "bet": 4700,
+      "multiplier": "1.90x",
+      "win": 8930
+    },
+    {
+      "rank": "../images/rank/2nd.png",
+      "name": "liam",
+      "date": "29 March 2024",
+      "bet": 3100,
+      "multiplier": "4.00x",
+      "win": 12400
+    },
+    {
+      "rank": "../images/rank/3rd.png",
+      "name": "zoe",
+      "date": "17 June 2024",
+      "bet": 2650,
+      "multiplier": "2.80x",
+      "win": 7420
+    }
+  ],
+  "bets": [
+    {
+      "game": "Dice",
+      "player": "jack",
+      "time": "12:05:18 PM",
+      "bet": 110,
+      "multiplier": 1.3,
+      "win": 143
+    },
+    {
+      "game": "Roulette",
+      "player": "lila",
+      "time": "01:27:49 PM",
+      "bet": 190,
+      "multiplier": 1.4,
+      "win": 266
+    },
+    {
+      "game": "Blackjack",
+      "player": "noah",
+      "time": "02:13:07 PM",
+      "bet": 210,
+      "multiplier": 1.5,
+      "win": 315
+    },
+    {
+      "game": "Dice",
+      "player": "ivy",
+      "time": "03:45:52 PM",
+      "bet": 175,
+      "multiplier": 1.6,
+      "win": 280
+    },
+    {
+      "game": "Roulette",
+      "player": "ethan",
+      "time": "04:08:34 PM",
+      "bet": 230,
+      "multiplier": 1.7,
+      "win": 391
+    },
+    {
+      "game": "Blackjack",
+      "player": "mia",
+      "time": "05:22:09 PM",
+      "bet": 260,
+      "multiplier": 1.5,
+      "win": 390
+    },
+    {
+      "game": "Dice",
+      "player": "oliver",
+      "time": "06:47:33 PM",
+      "bet": 300,
+      "multiplier": 1.8,
+      "win": 540
+    },
+    {
+      "game": "Roulette",
+      "player": "zoey",
+      "time": "07:31:26 PM",
+      "bet": 150,
+      "multiplier": 1.9,
+      "win": 285
+    },
+    {
+      "game": "Blackjack",
+      "player": "luke",
+      "time": "08:59:41 PM",
+      "bet": 220,
+      "multiplier": 1.4,
+      "win": 308
+    },
+    {
+      "game": "Dice",
+      "player": "sophia",
+      "time": "09:14:12 PM",
+      "bet": 160,
+      "multiplier": 1.5,
+      "win": 240
+    },
+
+    {
+      "game": "Roulette",
+      "player": "max",
+      "time": "10:22:57 AM",
+      "bet": 1800,
+      "multiplier": 2.5,
+      "win": 4500
+    },
+    {
+      "game": "Blackjack",
+      "player": "ella",
+      "time": "11:38:42 AM",
+      "bet": 2400,
+      "multiplier": 3.1,
+      "win": 7440
+    },
+    {
+      "game": "Dice",
+      "player": "henry",
+      "time": "12:57:25 PM",
+      "bet": 2800,
+      "multiplier": 3.0,
+      "win": 8400
+    },
+    {
+      "game": "Roulette",
+      "player": "layla",
+      "time": "01:46:53 PM",
+      "bet": 3000,
+      "multiplier": 3.6,
+      "win": 10800
+    },
+    {
+      "game": "Blackjack",
+      "player": "james",
+      "time": "02:28:14 PM",
+      "bet": 3400,
+      "multiplier": 2.9,
+      "win": 9860
+    },
+    {
+      "game": "Dice",
+      "player": "scarlett",
+      "time": "03:59:46 PM",
+      "bet": 3700,
+      "multiplier": 3.3,
+      "win": 12210
+    },
+    {
+      "game": "Roulette",
+      "player": "leo",
+      "time": "04:15:35 PM",
+      "bet": 4200,
+      "multiplier": 3.8,
+      "win": 15960
+    },
+    {
+      "game": "Blackjack",
+      "player": "ava",
+      "time": "05:42:58 PM",
+      "bet": 4500,
+      "multiplier": 2.7,
+      "win": 12150
+    },
+    {
+      "game": "Dice",
+      "player": "owen",
+      "time": "06:51:17 PM",
+      "bet": 5000,
+      "multiplier": 3.4,
+      "win": 17000
+    },
+    {
+      "game": "Roulette",
+      "player": "grace",
+      "time": "07:38:09 PM",
+      "bet": 5500,
+      "multiplier": 3.5,
+      "win": 19250
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game2</title>
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/chatbar.css" />
+    <link rel="stylesheet" href="./css/appbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/blackjack.css" />
+    <!--  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section id="navbar"></section>
+
+    <div class="main-div">
+      <section id="app-bar-section"></section>
+
+      <section class="center-div" id="center-div">
+        <div class="blackjack-top-flex">
+          <div class="blackjack-start-betting-card">
+            <div
+              class="d-flex align-items-center justify-content-start gap-2 p-2"
+            >
+              <div class="patta">
+                <i class="fa-solid fa-diamond"></i>
+              </div>
+              <h3>Roulette</h3>
+            </div>
+            <hr />
+            <div
+              class="flex-grow-1 p-2 d-flex align-items-stretch justify-content-between flex-column"
+            >
+              <div>
+                <div class="blackjack-start-betting-input glass">
+                  <i class="fa-solid fa-sack-dollar"></i>
+                  <input type="number" class="input" aria-colspan="mx-2" />
+                  <button>Clear</button>
+                </div>
+
+                <div class="choose-blackjack-grid">
+                  <button>Hit 👆🏻</button>
+                  <button>Stand ✋🏻</button>
+                  <button>Split 🔀</button>
+                  <button>Double 🪙</button>
+                </div>
+              </div>
+
+              <button class="button yellow-button w-100">Deal cards</button>
+            </div>
+          </div>
+          <div class="blackjack-game-box"></div>
+        </div>
+
+        <div class="blackjack-original">
+          <div
+            class="d-flex align-items-center justify-content-between flex-wrap row-gap-2 p-2 rounded"
+            style="background-color: #262629"
+          >
+            <div class="blackjack-original-title">
+              <h3>Roulette</h3>
+              <h3 class="fw-normal">17Noir Originals</h3>
+            </div>
+
+            <div class="blackjack-original-tab">
+              <button
+                class="button yellow-button"
+                data-blackjack-tab="big-wins"
+              >
+                Big wins
+              </button>
+              <button class="button" data-blackjack-tab="lucky-wins">
+                Lucky wins
+              </button>
+              <button class="button" data-blackjack-tab="challenges">
+                Challenges
+              </button>
+              <button class="button" data-blackjack-tab="description">
+                Description
+              </button>
+            </div>
+          </div>
+          <div class="mt-4">
+            <div
+              class="overflow-x-auto blackjack-original-section"
+              id="big-wins"
+            >
+              <div class="big-wins-head">
+                <div>
+                  <p>Rank</p>
+                </div>
+                <div>
+                  <p>User</p>
+                </div>
+                <div>
+                  <p>Date</p>
+                </div>
+                <div>
+                  <p>Bet</p>
+                </div>
+                <div>
+                  <p>Multipler</p>
+                </div>
+                <div>
+                  <p>Payout</p>
+                </div>
+              </div>
+              <div id="big-wins-body"></div>
+            </div>
+            <div
+              class="overflow-x-auto blackjack-original-section d-none"
+              id="lucky-wins"
+            >
+              <div class="big-wins-head">
+                <div>
+                  <p>Rank</p>
+                </div>
+                <div>
+                  <p>User</p>
+                </div>
+                <div>
+                  <p>Date</p>
+                </div>
+                <div>
+                  <p>Bet</p>
+                </div>
+                <div>
+                  <p>Multipler</p>
+                </div>
+                <div>
+                  <p>Payout</p>
+                </div>
+              </div>
+              <div id="lucky-wins-body"></div>
+            </div>
+
+            <div class="blackjack-original-section d-none" id="challenges">
+              <p class="text-center text-secondary">No active challenges</p>
+            </div>
+
+            <div class="blackjack-original-section d-none" id="description">
+              <p class="text-secondary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                aut doloribus sunt repellendus perferendis voluptatibus nulla,
+                explicabo nesciunt minus iste. Accusamus maiores culpa facilis
+                error suscipit pariatur. Reprehenderit, quos dolorum?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bets">
+          <div class="bets-tab">
+            <button class="button yellow-button">All bets</button>
+            <button class="button">High rollers</button>
+          </div>
+
+          <div class="overflow-x-auto">
+            <div class="bets-head">
+              <div>
+                <p>Game</p>
+              </div>
+              <div>
+                <p>User</p>
+              </div>
+              <div>
+                <p>Time</p>
+              </div>
+              <div>
+                <p>Bet Amount</p>
+              </div>
+              <div>
+                <p>Multiplier</p>
+              </div>
+              <div>
+                <p>Payout</p>
+              </div>
+            </div>
+            <div id="bets-body">
+              <div class="bets-body">
+                <div>
+                  <p>Dice</p>
+                </div>
+                <div>
+                  <p>Johny</p>
+                </div>
+                <div>
+                  <p>06:21:57 PM</p>
+                </div>
+                <div>
+                  <p>520</p>
+                </div>
+                <div>
+                  <p>1.5</p>
+                </div>
+                <div>
+                  <p>780</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section id="footer"></section>
+      </section>
+      <section id="chat-bar-section"></section>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/navbar.js" defer></script>
+    <script src="./js/appbar.js" defer></script>
+    <script src="./js/chatbar.js" defer></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/roulette.js"></script>
+    <!--  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
