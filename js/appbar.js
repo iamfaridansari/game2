@@ -28,13 +28,24 @@ document.addEventListener("DOMContentLoaded", () => {
         rewards.classList.toggle("hide");
       });
       //
-      const currentPath = window.location.pathname.split("/").pop(); // e.g. "gamedom.html"
+      const originals = document.getElementById("originals");
+      originals.addEventListener("click", () => {
+        originals.classList.toggle("hide");
+      });
+      //
+      let currentPath = window.location.pathname.split("/").pop();
+      if (currentPath === "" || currentPath === "/") {
+        currentPath = "index.html";
+      }
       const appBarLinks = document.querySelectorAll(".app-bar-link");
-
       appBarLinks.forEach((link) => {
         const linkHref = link.getAttribute("href");
-        if (linkHref && linkHref.includes(currentPath)) {
-          link.classList.add("active");
+
+        if (linkHref) {
+          const normalizedHref = linkHref === "/" ? "index.html" : linkHref;
+          if (normalizedHref.includes(currentPath)) {
+            link.classList.add("active");
+          }
         }
       });
     });

@@ -71,6 +71,103 @@
           <div class="blackjack-game-box"></div>
         </div>
 
+        <div class="blackjack-original">
+          <div
+            class="d-flex align-items-center justify-content-between flex-wrap row-gap-2 p-2 rounded"
+            style="background-color: #262629"
+          >
+            <div class="blackjack-original-title">
+              <h3>Blackjack</h3>
+              <h3 class="fw-normal">17Noir Originals</h3>
+            </div>
+
+            <div class="blackjack-original-tab">
+              <button
+                class="button yellow-button"
+                data-blackjack-tab="big-wins"
+              >
+                Big wins
+              </button>
+              <button class="button" data-blackjack-tab="lucky-wins">
+                Lucky wins
+              </button>
+              <button class="button" data-blackjack-tab="challenges">
+                Challenges
+              </button>
+              <button class="button" data-blackjack-tab="description">
+                Description
+              </button>
+            </div>
+          </div>
+          <div class="mt-4">
+            <div
+              class="overflow-x-auto blackjack-original-section"
+              id="big-wins"
+            >
+              <div class="big-wins-head">
+                <div>
+                  <p>Rank</p>
+                </div>
+                <div>
+                  <p>User</p>
+                </div>
+                <div>
+                  <p>Date</p>
+                </div>
+                <div>
+                  <p>Bet</p>
+                </div>
+                <div>
+                  <p>Multipler</p>
+                </div>
+                <div>
+                  <p>Payout</p>
+                </div>
+              </div>
+              <div id="big-wins-body"></div>
+            </div>
+            <div
+              class="overflow-x-auto blackjack-original-section d-none"
+              id="lucky-wins"
+            >
+              <div class="big-wins-head">
+                <div>
+                  <p>Rank</p>
+                </div>
+                <div>
+                  <p>User</p>
+                </div>
+                <div>
+                  <p>Date</p>
+                </div>
+                <div>
+                  <p>Bet</p>
+                </div>
+                <div>
+                  <p>Multipler</p>
+                </div>
+                <div>
+                  <p>Payout</p>
+                </div>
+              </div>
+              <div id="lucky-wins-body"></div>
+            </div>
+
+            <div class="blackjack-original-section d-none" id="challenges">
+              <p class="text-center text-secondary">No active challenges</p>
+            </div>
+
+            <div class="blackjack-original-section d-none" id="description">
+              <p class="text-secondary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                aut doloribus sunt repellendus perferendis voluptatibus nulla,
+                explicabo nesciunt minus iste. Accusamus maiores culpa facilis
+                error suscipit pariatur. Reprehenderit, quos dolorum?
+              </p>
+            </div>
+          </div>
+        </div>
+
         <section id="footer"></section>
       </section>
       <section id="chat-bar-section"></section>
@@ -85,6 +182,7 @@
     <script src="./js/appbar.js" defer></script>
     <script src="./js/chatbar.js" defer></script>
     <script src="./js/footer.js"></script>
+    <script src="./js/blackjack.js"></script>
     <!--  -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

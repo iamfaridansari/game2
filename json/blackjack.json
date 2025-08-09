@@ -1,0 +1,54 @@
+{
+  "bigWins": [
+    {
+      "rank": "../images/rank/1st.png",
+      "name": "mickey",
+      "date": "17 July 2024",
+      "bet": 4000,
+      "multiplier": 2,
+      "win": 8000
+    },
+    {
+      "rank": "../images/rank/2nd.png",
+      "name": "donald",
+      "date": "23 August 2024",
+      "bet": 2500,
+      "multiplier": 3.5,
+      "win": 8750
+    },
+    {
+      "rank": "../images/rank/3rd.png",
+      "name": "goofy",
+      "date": "02 September 2024",
+      "bet": 1500,
+      "multiplier": 5,
+      "win": 7500
+    }
+  ],
+  "luckyWins": [
+    {
+      "rank": "../images/rank/1st.png",
+      "name": "pluto",
+      "date": "12 October 2024",
+      "bet": 5000,
+      "multiplier": "1.80x",
+      "win": 9000
+    },
+    {
+      "rank": "../images/rank/2nd.png",
+      "name": "minnie",
+      "date": "29 November 2024",
+      "bet": 3200,
+      "multiplier": "4.25x",
+      "win": 13600
+    },
+    {
+      "rank": "../images/rank/3rd.png",
+      "name": "daisy",
+      "date": "06 December 2024",
+      "bet": 2750,
+      "multiplier": "2.90x",
+      "win": 7975
+    }
+  ]
+}
