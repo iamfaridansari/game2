@@ -118,4 +118,13 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       renderBets(bets);
     });
+
+  //
+  const numberOfMines = document.getElementById("numberOfMines");
+  for (let i = 1; i <= 24; i++) {
+    let el = document.createElement("option");
+    el.setAttribute("value", i);
+    el.innerHTML = i;
+    numberOfMines.appendChild(el);
+  }
 });

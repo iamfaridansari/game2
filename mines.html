@@ -42,7 +42,7 @@
               class="d-flex align-items-center justify-content-start gap-2 p-2"
             >
               <div class="patta">
-                <i class="fa-solid fa-diamond"></i>
+                <i class="fa-solid fa-bomb"></i>
               </div>
               <h3>Mines</h3>
             </div>
@@ -51,21 +51,24 @@
               class="flex-grow-1 p-2 d-flex align-items-stretch justify-content-between flex-column"
             >
               <div>
+                <p class="text-secondary">Bet amount</p>
                 <div class="blackjack-start-betting-input glass">
                   <i class="fa-solid fa-sack-dollar"></i>
                   <input type="number" class="input" aria-colspan="mx-2" />
-                  <button>Clear</button>
+                  <div class="bet-ratio">
+                    <button>½</button>
+                    <button>2x</button>
+                  </div>
                 </div>
 
-                <div class="choose-blackjack-grid">
-                  <button>Hit 👆🏻</button>
-                  <button>Stand ✋🏻</button>
-                  <button>Split 🔀</button>
-                  <button>Double 🪙</button>
+                <div class="mt-4">
+                  <p class="text-secondary">Number of mines</p>
+                  <select id="numberOfMines" class="input"></select>
+                  <button class="button yellow-button w-100 mt-2">
+                    Place bet
+                  </button>
                 </div>
               </div>
-
-              <button class="button yellow-button w-100">Deal cards</button>
             </div>
           </div>
           <div class="blackjack-game-box"></div>
