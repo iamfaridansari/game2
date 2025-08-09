@@ -51,21 +51,41 @@
               class="flex-grow-1 p-2 d-flex align-items-stretch justify-content-between flex-column"
             >
               <div>
+                <p class="text-secondary">Bet amount</p>
                 <div class="blackjack-start-betting-input glass">
                   <i class="fa-solid fa-sack-dollar"></i>
                   <input type="number" class="input" aria-colspan="mx-2" />
                   <button>Clear</button>
                 </div>
 
-                <div class="choose-blackjack-grid">
-                  <button>Hit 👆🏻</button>
-                  <button>Stand ✋🏻</button>
-                  <button>Split 🔀</button>
-                  <button>Double 🪙</button>
+                <div class="dice-select-grid">
+                  <button class="button">+$1</button>
+                  <button class="button">1/2</button>
+                  <button class="button">2x</button>
+                  <button class="button">Max</button>
                 </div>
               </div>
 
-              <button class="button yellow-button w-100">Deal cards</button>
+              <div class="dice-data-grid">
+                <div>
+                  <p class="text-secondary">Roll over</p>
+                  <input type="text" class="input" />
+                </div>
+                <div>
+                  <p class="text-secondary">Multiplier</p>
+                  <input type="text" class="input" />
+                </div>
+                <div>
+                  <p class="text-secondary">Win chance</p>
+                  <input type="text" class="input" />
+                </div>
+                <div>
+                  <p class="text-secondary">Profit on win</p>
+                  <input type="text" class="input" />
+                </div>
+              </div>
+
+              <button class="button yellow-button w-100 mt-2">Roll dice</button>
             </div>
           </div>
           <div class="blackjack-game-box"></div>

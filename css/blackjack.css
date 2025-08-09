@@ -8,7 +8,7 @@
 .blackjack-start-betting-card {
   flex: 1 1 250px;
   max-width: 250px;
-  height: 400px;
+  height: 450px;
   background: var(--grey);
   border-radius: var(--radius);
   display: flex;
@@ -64,7 +64,7 @@
   width: 100%;
   min-width: 500px;
   flex: 1;
-  height: 400px;
+  height: 450px;
   background: #2b2c2d;
   border-radius: var(--radius);
 }
@@ -183,4 +183,22 @@
 }
 .bet-ratio .button:hover {
   background: #3e3e40;
+}
+.dice-select-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 16px;
+}
+.dice-select-grid .button {
+  color: var(--yellow);
+  background: #363327;
+}
+.dice-select-grid .button:last-child {
+  grid-area: 2 / 1 / 3 / 4;
+}
+.dice-data-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
 }
